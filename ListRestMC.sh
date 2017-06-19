@@ -1,0 +1,13 @@
+ls user.dshoaleh.ttunf8TeV_105985.DiBoson_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>input_Dibosons.txt
+ls user.dshoaleh.ttunf8TeV_105986.DiBoson_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>>input_Dibosons.txt
+ls user.dshoaleh.ttunf8TeV_105987.DiBoson_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>>input_Dibosons.txt
+ls user.dshoaleh.ttunf8TeV_119353.ttbarW_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>input_ttbarBoson.txt
+ls user.dshoaleh.ttunf8TeV_119354.ttbarW_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>>input_ttbarBoson.txt
+ls user.dshoaleh.ttunf8TeV_119355.ttbarZ_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>>input_ttbarBoson.txt
+ls user.dshoaleh.ttunf8TeV_119356.ttbarZ_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>>input_ttbarBoson.txt
+ls user.dshoaleh.ttunf8TeV_110090.SingleTop_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>input_SingleTop.txt
+ls user.dshoaleh.ttunf8TeV_110091.SingleTop_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>>input_SingleTop.txt
+ls user.dshoaleh.ttunf8TeV_110101.SingleTop_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>>input_SingleTop.txt
+ls user.dshoaleh.ttunf8TeV_110119.SingleTop_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>>input_SingleTop.txt
+ls user.dshoaleh.ttunf8TeV_110140.SingleTop_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>>input_SingleTop.txt
+ls user.dshoaleh.ttunf8TeV_117050.ttbar_btagjfit_SeljetIsNotbtag_Boost_tree.root/*>input_ttbar.txt

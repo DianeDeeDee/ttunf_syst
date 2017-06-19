@@ -1,0 +1,103 @@
+#GStar
+ls	user.dshoaleh.ttunf8TeV_203054.GstartT_MG1000MT600_TWb_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>input_GstartT_MG1000MT600_TWb.txt
+ls	user.dshoaleh.ttunf8TeV_203055.GstartT_MG1000MT600_TtZ_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>input_GstartT_MG1000MT600_TtZ.txt
+ls	user.dshoaleh.ttunf8TeV_203056.GstartT_MG1000MT600_TtH_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>input_GstartT_MG1000MT600_TtH.txt
+ls	user.dshoaleh.ttunf8TeV_203057.GstartT_MG2000MT1400_TWb_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>input_GstartT_MG2000MT1400_TWb.txt
+ls	user.dshoaleh.ttunf8TeV_203058.GstartT_MG2000MT1400_TtZ_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>input_GstartT_MG2000MT1400_TtZ.txt
+ls	user.dshoaleh.ttunf8TeV_203059.GstartT_MG2000MT1400_TtH_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>input_GstartT_MG2000MT1400_TtH.txt
+#SingleTop
+ls user.dshoaleh.ttunf8TeV_110090.SingleTop_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>input_SingleTop.txt
+ls user.dshoaleh.ttunf8TeV_110091.SingleTop_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>>input_SingleTop.txt
+ls user.dshoaleh.ttunf8TeV_110101.SingleTop_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>>input_SingleTop.txt
+ls user.dshoaleh.ttunf8TeV_110119.SingleTop_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>>input_SingleTop.txt
+ls user.dshoaleh.ttunf8TeV_110140.SingleTop_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>>input_SingleTop.txt
+#117050.ttbar
+#ls user.dshoaleh.ttunf8TeV_117050.ttbar_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>input_ttbar.txt
+#110404.ttbar
+ls user.dshoaleh.ttunf8TeV_117050.ttbar_Dani_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>input_ttbar.txt 
+#ttbarBoson
+ls user.dshoaleh.ttunf8TeV_119355.ttbarZ_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>input_ttbarBoson.txt
+ls user.dshoaleh.ttunf8TeV_119356.ttbarZ_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>>input_ttbarBoson.txt
+ls user.dshoaleh.ttunf8TeV_119353.ttbarW_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>>input_ttbarBoson.txt
+ls user.dshoaleh.ttunf8TeV_119354.ttbarW_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>>input_ttbarBoson.txt
+#Diboson
+ls user.dshoaleh.ttunf8TeV_105985.DiBoson_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>input_Dibosons.txt
+ls user.dshoaleh.ttunf8TeV_105986.DiBoson_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>>input_Dibosons.txt
+ls user.dshoaleh.ttunf8TeV_105987.DiBoson_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>>input_Dibosons.txt
+#Wj
+ls	user.dshoaleh.ttunf8TeV_147025.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147026.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147027.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147028.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147029.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147030.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls 	user.dshoaleh.ttunf8TeV_147033.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147034.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147035.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147036.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147037.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147038.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147041.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147042.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147043.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147044.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147045.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_147046.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200056.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200057.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200058.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200059.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200060.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200156.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200157.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200158.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200159.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200256.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200257.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200258.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+ls	user.dshoaleh.ttunf8TeV_200259.Wj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Wj.txt
+#hightPtWj
+ls user.dshoaleh.ttunf8TeV_*.highptWj_btagjfit_SeljetIsNotbtag_JESComp_Boost2_tree.root/*>input_highptWj.txt
+#Zj
+ls	user.dshoaleh.ttunf8TeV_147105.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147106.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147107.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147108.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147109.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147110.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147113.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147114.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147115.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147116.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147117.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147118.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147121.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147122.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147123.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147124.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147125.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_147126.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200332.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200333.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200334.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200335.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200340.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200341.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200342.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200343.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200348.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200349.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200350.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200351.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200432.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200433.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200434.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200435.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200440.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200441.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200442.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200443.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200448.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200449.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200450.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt
+ls	user.dshoaleh.ttunf8TeV_200451.Zj_btagjfit_SeljetIsNotbtag_JESComp_Boost_tree.root/*>>input_Zj.txt

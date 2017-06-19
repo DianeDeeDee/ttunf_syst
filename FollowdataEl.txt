@@ -1,0 +1,45 @@
+Usage: python macros/submit.py [options]
+Options:  {'': 'False', 'suffix': ' --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 ', 'isData': 'True', 'inDSFile': 'datasets/dataElGoodPeriod.txt', 'nFilesPerJob': '2', 'loose': 'False', 'site': '', 'versionTag': 'Electrons', 'user': 'dshoaleh', 'save': 'tree.root', 'destSE': ''}
+Arguments:  ['-']
+The command line will be:
+grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 
+Input  dataset: data12_8TeV.periodA.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1517_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodA.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodA.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1517_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodA.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
+Input  dataset: data12_8TeV.periodB.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodB.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodB.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodB.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
+Input  dataset: data12_8TeV.periodC.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodC.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodC.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodC.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
+Input  dataset: data12_8TeV.periodD.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodD.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodD.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodD.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
+Input  dataset: data12_8TeV.periodE.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodE.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodE.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodE.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
+Input  dataset: data12_8TeV.periodG.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodG.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodG.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodG.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
+Input  dataset: data12_8TeV.periodH.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodH.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodH.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1278_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodH.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
+Input  dataset: data12_8TeV.periodI.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodI.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodI.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodI.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
+Input  dataset: data12_8TeV.periodJ.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodJ.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodJ.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodJ.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
+Input  dataset: data12_8TeV.periodL.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1562/
+Output dataset: user.dshoaleh.ttunf8TeV_periodL.Electrons
+The prun command line will be: 
+prun --exec "echo %IN | sed 's/,/\n/g' > input.txt ; cat input.txt ; grid_exec.sh --files input.txt  --data 1 --mode 0 --doParticle 0 --syst 0 --doLoose 1 " --inDS data12_8TeV.periodL.physics_Egamma.PhysCont.NTUP_COMMON.grp14_v01_p1562/ --outDS user.dshoaleh.ttunf8TeV_periodL.Electrons --outputs tree.root --rootVer 5.34/19 --cmtConfig=x86_64-slc6-gcc47-opt  --nFilesPerJob 2 --inTarBall lastsubmit.tar.gz --noCompile  --excludedSite=GOEGRID_SCRATCHDISK 
