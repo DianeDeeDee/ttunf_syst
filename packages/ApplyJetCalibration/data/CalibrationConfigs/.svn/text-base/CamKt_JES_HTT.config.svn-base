@@ -1,0 +1,48 @@
+# Configuration file for fat jets
+# Put to togehter by Joe Taenzer, Sept 2012
+#
+# Calibration factors derived for HEP Top Tagger CamKt subjets ... derived by Christoph Anders for 2012 data/MC
+# format for e.g. R=0.4 is "040", as we need to be able to access e.g. 0.25 ("025") and 1.5 ("150")
+#####################
+
+# ----------------
+# 1. Absolute JES
+
+  # The file with the absolute JES factors
+AbsoluteJES.CalibFile:        CalibrationFactors/CamKt015_to_060_150LCTopo_LC_forHTT_01.config
+AbsoluteJES.Description:      JES for CamKt jets for HTT, 2012, added poly and groom function
+ApplyMassCorrection:          false
+
+CamKt020LCTopo.MinPtForETAJES:  20.
+CamKt025LCTopo.MinPtForETAJES:  20.
+CamKt030LCTopo.MinPtForETAJES:  20.
+CamKt035LCTopo.MinPtForETAJES:  20.
+CamKt040LCTopo.MinPtForETAJES:  20.
+CamKt045LCTopo.MinPtForETAJES:  20.
+CamKt050LCTopo.MinPtForETAJES:  20.
+CamKt055LCTopo.MinPtForETAJES:  20.
+CamKt060LCTopo.MinPtForETAJES:  20.
+CamKt150LCTopo.MinPtForETAJES:  20.
+
+
+
+
+
+
+JES.EtaBins: -3.0 -2.9 -2.8 -2.7 -2.6 -2.5 -2.4 -2.3 -2.2 -2.1 -2.0 -1.9 -1.8 -1.7 -1.6 -1.5 -1.4 -1.3 -1.2 -1.1 -1.0 -0.9 -0.8 -0.7 -0.6 -0.5 -0.4 -0.3 -0.2 -0.1
++JES.EtaBins: 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2.0 2.1 2.2 2.3 2.4 2.5 2.6 2.7 2.8 2.9 3.0
+
+# ----------------
+# 2. Pile-up correction
+
+  # What offset correction to apply
+OffsetCorrection.Name:        None
+ResidualOffsetCorrection.Name = None
+
+# N/A for fat jets
+
+# ----------------
+# 3. Residual in-situ correction - applied to data only!
+
+# N/A for fat jets
+

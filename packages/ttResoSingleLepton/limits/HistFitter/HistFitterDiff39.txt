@@ -1,0 +1,295 @@
+Index: python/configManager.py
+===================================================================
+--- python/configManager.py	(revision 169715)
++++ python/configManager.py	(working copy)
+@@ -69,6 +69,7 @@
+         self.doExclusion = True # true = exclusion, false = discovery test
+         self.fixSigXSec = False # true = fix SigXSec by nominal, +/-1sigma
+         self.runOnlyNominalXSec = False #t true = for fixed xsec, run only nominal fit and not +/- 1 sigma fits
++        self.InitialScanInterval = -1
+         self.nPoints = 20 # number of points in upper limit evaluation
+         self.seed = 0 # seed for random generator. default is clock
+         self.muValGen = 0.0 # mu_sig used for toy generation
+@@ -373,6 +374,7 @@
+         self.cppMgr.setfixSigXSec( self.fixSigXSec )
+         self.cppMgr.setRunOnlyNominalXSec( self.runOnlyNominalXSec )
+         self.cppMgr.setNPoints( self.nPoints )
++        self.cppMgr.setInitialScanInterval( self.InitialScanInterval )
+         self.cppMgr.setSeed( self.toySeed )
+         self.cppMgr.setMuValGen( self.muValGen )
+         self.cppMgr.setUseAsimovSet( self.useAsimovSet)
+Index: scripts/PrintFitResult.py
+===================================================================
+--- scripts/PrintFitResult.py	(revision 169715)
++++ scripts/PrintFitResult.py	(working copy)
+@@ -14,6 +14,7 @@
+ from sys import exit
+ 
+ from PrintFitResultTex import *
++from PrintFitResultPlot import *
+ import pickle
+ 
+ 
+@@ -234,6 +235,8 @@
+   # set all floating parameters constant
+   for idx in range(fpf.getSize()):
+     parname = fpf[idx].GetName()
++    if parname.find("gamma_stat_") > -1 :
++        continue
+     ip = fpi[idx]
+     ipv  = ip.getVal()
+     ipe  = ip.getError()
+@@ -299,11 +302,17 @@
+   regSys = latexfitresults(wsFileName,resultName,outputFileName)
+ 
+   line_chanSysTight = tablefragment(regSys,analysisName)
++  plot = plotfragment(regSys,analysisName)
++  #plot.Print("fitresult_" + analysisName + ".pdf")
+ 
+   outputFileName = "fitresult_" + analysisName + ".tex"
+-  
++  printname = analysisName
++  #printname = printname.replace('_','\_')
++  printname = printname.replace('_',' ')
++
+   f = open(outputFileName, 'w')
+   f.write( line_chanSysTight )
++  f.write( "\n\\begin{figure*}[htb!]\n\\includegraphics[width=\\textwidth]{fitresult_" + analysisName + ".pdf}\n\\caption[]{Fit parameters for " + printname + ".}\n\\end{figure*}\n" )
+   f.close()
+   print "\nwrote results in file: %s"%(outputFileName)
+ 
+Index: scripts/PrintFitResultTex.py
+===================================================================
+--- scripts/PrintFitResultTex.py	(revision 169715)
++++ scripts/PrintFitResultTex.py	(working copy)
+@@ -32,17 +32,22 @@
+       tableline += '''
+ %%'''
+       pass
+-
+-
++  printname = sr
++  #printname = printname.replace('_','\_')
++  printname = printname.replace('_',' ')
++  printname2 = sr
++  printname2 = printname2.replace('_','')
+   tableline += '''
+ \\noalign{\\smallskip}\\hline\\noalign{\\smallskip}
+ \\end{tabular*}
+ \\end{center}
+ \\caption[Fit results]{
+-Floating fit parameters for the analysis involving signal region %s, before (left) and after (right) the background-only fit. The quoted fit errors come from HESSE.
+-\\label{fitparameters.%s}}
++Fit results for %s.
++\\label{fitparameters.%s}
++}
+ \\end{table}
+-%%''' % (sr,sr) 
++%%''' % (printname,printname2) 
+     
+   return tableline
+ 
++#%%Floating fit parameters for the analysis involving signal region %s, before (left) and after (right) the background-only fit. The quoted fit errors come from HESSE.
+Index: src/Utils.cxx
+===================================================================
+--- src/Utils.cxx	(revision 169715)
++++ src/Utils.cxx	(working copy)
+@@ -63,7 +63,7 @@
+ #include "TCanvas.h"
+ #include "TLegend.h"
+ #include "TLegendEntry.h"
+-
++#include "TCutG.h"
+ #include "TROOT.h"
+ 
+ 
+@@ -1195,6 +1195,7 @@
+ 
+             canVec[iVec]->SaveAs("results/"+anaName+"/"+canName+".pdf");
+             canVec[iVec]->SaveAs("results/"+anaName+"/"+canName+".eps");
++	    canVec[iVec]->SaveAs("results/"+anaName+"/"+canName+".png");
+ 
+         }
+     }
+@@ -1379,7 +1380,8 @@
+ 
+             canVec[iVec]->SaveAs("results/"+anaName+"/"+canName+".pdf");
+             canVec[iVec]->SaveAs("results/"+anaName+"/"+canName+".eps");
+-        }
++	    canVec[iVec]->SaveAs("results/"+anaName+"/"+canName+".png");
++	}
+     }
+ }
+ 
+@@ -1649,6 +1651,8 @@
+ 
+       canVec[iPar]->SaveAs("results/"+anaName+"/"+canName+".pdf");
+       canVec[iPar]->SaveAs("results/"+anaName+"/"+canName+".eps");
++      canVec[iPar]->SaveAs("results/"+anaName+"/"+canName+".png");
++
+       //  }
+ 
+     }
+@@ -1670,15 +1674,17 @@
+ 
+     Int_t numPars = rFit->floatParsFinal().getSize();
+ 
+-    TString canName = Form("c_corrMatrix_%s",rFit->GetName());
+-    TCanvas* c_corr = new TCanvas(canName.Data(),canName.Data(),600,400); // .c_str()) 
++    //TString canName = Form("c_corrMatrix_%s",rFit->GetName());
++    TString canName = "c_corrMatrix";
++    TCanvas* c_corr = new TCanvas(canName.Data(),canName.Data(),1200,800); // .c_str()) 
+ 
+     Double_t orig_MarkerSize =  gStyle->GetMarkerSize();
+     Int_t orig_MarkerColor =  gStyle->GetMarkerColor();
+     const char* orig_PaintTextFormat = gStyle->GetPaintTextFormat() ;
+     Double_t orig_LabelSize = gStyle->GetLabelSize();
+ 
+-    gStyle->SetPalette(51) ;
++    //gStyle->SetPalette(51) ;
++    gStyle->SetPalette(1) ;
+     gStyle->SetMarkerSize(1.45);
+     gStyle->SetMarkerColor(kWhite);
+     gStyle->SetPaintTextFormat("4.2f") ;
+@@ -1692,6 +1698,35 @@
+ 
+     TH2D* h_corr = (TH2D*) rFit->correlationHist(Form("h_corr_%s",rFit->GetName())); 
+ 
++    //andrew
++    RooArgList pars = rFit->floatParsFinal();
++    
++    int i=0;
++    for(; i<numPars; i++){
++      const char * label=pars.at(i)->GetName();
++      const char * found=strstr(label, "gamma_stat");
++      
++      if(found) break;
++    }
++    
++    TCutG *mycut = new TCutG("mycut",4);
++    mycut->SetVarX("");
++    mycut->SetVarY("");
++    mycut->SetTitle("Graph");
++    mycut->SetFillColor(1);
++    mycut->SetPoint(0,0,0);
++    mycut->SetPoint(1,0,i);
++    mycut->SetPoint(2,i,i);
++    mycut->SetPoint(3,i,0);
++    
++    h_corr->GetXaxis()->SetRange(1,i);
++    h_corr->GetYaxis()->SetRange(numPars-i+1,numPars);
++    
++    //andrew
++
++
++
++
+     Double_t labelSize = orig_LabelSize;
+     if(numPars<5) labelSize = 0.05;
+     else if(numPars<10)   labelSize = 0.04;
+@@ -1716,6 +1751,7 @@
+ 
+     c_corr->SaveAs("results/"+anaName+"/"+canName+".pdf");
+     c_corr->SaveAs("results/"+anaName+"/"+canName+".eps");
++    c_corr->SaveAs("results/"+anaName+"/"+canName+".png");
+ 
+     gStyle->SetMarkerSize(orig_MarkerSize);
+     gStyle->SetMarkerColor(orig_MarkerColor);
+Index: src/ConfigMgr.cxx
+===================================================================
+--- src/ConfigMgr.cxx	(revision 169715)
++++ src/ConfigMgr.cxx	(working copy)
+@@ -37,6 +37,7 @@
+     m_doUL=true;
+     m_seed=0;
+     m_nPoints=10;
++    m_initialScanInterval=-1;
+     m_muValGen=0.0;  
+     m_removeEmptyBins=false;
+     m_useAsimovSet=false;
+@@ -449,25 +450,39 @@
+ 
+     /// first asumptotic limit, to get a quick but reliable estimate for the upper limit
+     /// dynamic evaluation of ranges
+-    RooStats::HypoTestInverterResult* hypo = RooStats::DoHypoTestInversion(w, 1, 2, m_testStatType, m_useCLs, 20, 0, -1);  
+-
++    //RooStats::HypoTestInverterResult* hypo = RooStats::DoHypoTestInversion(w, 1, 2, m_testStatType, m_useCLs, 20, 0, -1);  
++    RooStats::HypoTestInverterResult* hypo = RooStats::DoHypoTestInversion(w, 1, 2, m_testStatType, m_useCLs, 20, 0,  m_initialScanInterval);
++    
+     /// then reevaluate with proper settings
+     if ( hypo!=0 ) { 
+-        (void) hypo->ExclusionCleanup(); 
+-        double eul2 = 1.10 * hypo->GetExpectedUpperLimit(2);
+-        delete hypo; hypo=0;
++      TString outputPrefix_noClean = TString(gSystem->DirName(outfileName))+"/"+fc->m_signalSampleName.Data()+"_intermediate_noClean";
++      //RooStats::AnalyzeHypoTestInverterResult( hypo, m_calcType, m_testStatType, m_useCLs, 20, outputPrefix_noClean, ".eps") ;
++      RooStats::AnalyzeHypoTestInverterResult( hypo, m_calcType, m_testStatType, m_useCLs, 20, outputPrefix_noClean, ".png") ;
++      
++      int nPointsRemoved1 = hypo->ExclusionCleanup();
++      m_logger << kWARNING << "ExclusionCleanup() removed " << nPointsRemoved1 << " scan point(s) for hypo test inversion 1: " << hypo->GetName() << GEndl;
+ 
+-        //cout << "INFO grepme : " << m_nToys << " " << m_calcType << " " << m_testStatType << " " << m_useCLs << " " << m_nPoints << GEndl;
++      TString outputPrefix = TString(gSystem->DirName(outfileName))+"/"+fc->m_signalSampleName.Data()+"_intermediate";
++      //RooStats::AnalyzeHypoTestInverterResult( hypo, m_calcType, m_testStatType, m_useCLs, 20, outputPrefix, ".eps") ;
++      RooStats::AnalyzeHypoTestInverterResult( hypo, m_calcType, m_testStatType, m_useCLs, 20, outputPrefix, ".png") ;
+ 
++      double eul2 = 1.10 * hypo->GetExpectedUpperLimit(2);
++      if(eul2==0) eul2=m_initialScanInterval/4;
++      delete hypo; hypo=0;
++
++      //cout << "INFO grepme : " << m_nToys << " " << m_calcType << " " << m_testStatType << " " << m_useCLs << " " << m_nPoints << GEndl;
++
+         hypo = RooStats::DoHypoTestInversion(w, m_nToys, m_calcType, m_testStatType, m_useCLs, m_nPoints, 0, eul2);
+-        int nPointsRemoved = hypo->ExclusionCleanup();
+-        m_logger << kWARNING << "ExclusionCleanup() removed " << nPointsRemoved << " scan point(s) for hypo test inversion: " << hypo->GetName() << GEndl;
++	outputPrefix = TString(gSystem->DirName(outfileName))+"/"+fc->m_signalSampleName.Data()+"_noClean";
++	RooStats::AnalyzeHypoTestInverterResult( hypo, m_calcType, m_testStatType, m_useCLs, m_nPoints, outputPrefix, ".png") ;
++	int nPointsRemoved = hypo->ExclusionCleanup();
++	m_logger << kWARNING << "ExclusionCleanup() removed " << nPointsRemoved << " scan point(s) for hypo test inversion: " << hypo->GetName() << GEndl;
+     }
+ 
+     /// store ul as nice plot ..
+     if ( hypo!=0 ) {
+         TString outputPrefix = TString(gSystem->DirName(outfileName))+"/"+fc->m_signalSampleName.Data();
+-        RooStats::AnalyzeHypoTestInverterResult( hypo, m_calcType, m_testStatType, m_useCLs, m_nPoints, outputPrefix, ".eps") ;
++        RooStats::AnalyzeHypoTestInverterResult( hypo, m_calcType, m_testStatType, m_useCLs, m_nPoints, outputPrefix, ".png") ;
+     }
+ 
+     //cout << "h1" << GEndl;
+Index: src/ConfigMgr.h
+===================================================================
+--- src/ConfigMgr.h	(revision 169715)
++++ src/ConfigMgr.h	(working copy)
+@@ -86,7 +86,11 @@
+ 
+         void setNPoints(const int& type) { m_nPoints = type; }
+         int  getNPoints() { return m_nPoints; }
++	
++	void setInitialScanInterval(const double& interval) { m_initialScanInterval = interval; }
++	double  getinitialScanInterval() { return m_initialScanInterval; }
+ 
++
+         void setSeed(const int& seed=0) { m_seed = seed; }
+         int  getSeed() { return m_seed; }
+ 
+@@ -137,6 +141,7 @@
+         bool m_doUL;
+         int  m_nPoints;
+         double m_muValGen;
++	double m_initialScanInterval;
+         bool m_removeEmptyBins;
+ 	
+         std::vector<std::string> m_chnNameVec; 
+Index: src/HypoTestTool.h
+===================================================================
+--- src/HypoTestTool.h	(revision 169715)
++++ src/HypoTestTool.h	(working copy)
+@@ -53,7 +53,7 @@
+                         bool useCLs,  
+                         int npoints, 
+                         const char* outfilePrefix = "",
+-                        const char* outfiletype = ".eps" ); ///,const char * fileNameBase = 0 );
++                        const char* outfiletype = ".png" ); ///,const char * fileNameBase = 0 );
+ 
+             void SetParameter(const char * name, const char * value);
+             void SetParameter(const char * name, bool value);

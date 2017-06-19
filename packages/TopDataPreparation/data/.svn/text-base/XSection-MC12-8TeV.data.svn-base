@@ -1,0 +1,934 @@
+# ttbar baseline samples
+105860 115.56  1.1186  herwig
+105861 114.46  1.1294  pythia
+105200 112.94  1.2158  herwig
+110001  21.806 1.2119  herwig
+105204  95.125 1.2149  herwig
+117049  96.346 1.1995  pythia
+117050 114.49  1.1994  pythia
+117001 105.85  1.2973  pythia
+
+# ttbar Sherpa samples
+117800	 9.1637	  1.2121 sherpa
+117801	 3.2296	  1.2106 sherpa
+117802	 0.2800	  1.2288 sherpa
+117803	55.8120   1.2456 sherpa       
+117804	 6.0007	  1.1994 sherpa
+117805	 9.7764	  1.2516 sherpa
+117806	 1.0546	  1.2011 sherpa  	  
+117807	83.578    1.3016 sherpa
+117808	18.001    1.2513 sherpa
+117809	 0.96733  1.2053 sherpa
+
+#ttbar Alpgen+herwig
+164440	 4.7929  1.736 herwig	# ttbarlnlnNp0
+164441	 5.0680  1.736 herwig	# ttbarlnlnNp1
+164442	 3.2573  1.736 herwig	# ttbarlnlnNp2
+164443	 2.1758  1.736 herwig	# ttbarlnlnNp3+
+164444   1.5226  1.736 herwig	# ttbarlnlnNp3
+164445   0.76980 1.736 herwig	# ttbarlnlnNp4+
+164450	 19.193  1.808 herwig   # ttbarlnqqNp0
+164451	 20.288  1.808 herwig   # ttbarlnqqNp1
+164452	 13.085  1.808 herwig   # ttbarlnqqNp2
+164453	 8.6922  1.808 herwig   # ttbarlnqqNp3+
+164454   6.0821  1.808 herwig   # ttbarlnqqNp3
+164455   3.0842  1.808 herwig   # ttbarlnqqNp4+
+116108	 1.4353  1.689 herwig	# ttbbincl
+116109	 2.7130  1.689 herwig	# ttccincl
+
+# ttbar ISR/FSR variation
+117209  59.624 2.1680 pythia
+117210  59.622 2.1681 pythia
+117211  50.066 2.3084 pythia
+117212  50.065 2.3084 pythia
+
+# ttbar Renormalisation/factorisation scale variation
+174763	 126.80	 1.0830	pythia	  
+174764	 103.03	 1.3328	pythia	  
+174765	 118.54	 1.1584	pythia	  
+174766	 111.17	 1.2352	pythia
+
+117856	 115.56	 1.1883	herwig
+117857	 115.56	 1.1883	herwig
+117858	 115.56	 1.1883	herwig
+117859	 115.56	 1.1883	herwig
+
+# ttbar mass variation
+106201 121.61  1.1445 herwig
+106206 105.06  1.1437 herwig
+110002  23.475 1.1411 herwig
+110003  20.276 1.1404 herwig
+
+# ttbar mass slices
+117304   0.57116   1.1446   herwig # 1100 < m_tt < 1300  
+117305   0.19707   1.1446   herwig # 1300 < m_tt < 1500
+117306   0.072728  1.1446   herwig # 1500 < m_tt < 1700 
+117307   0.050686  1.1446   herwig # 1700 < m_tt < 10000
+
+# ttbar without Spin Correlation
+117200	 23.115	 1.1433  herwig
+
+# Mass Variation
+117835	 120.64	 1.1289	pythia	  
+117837	 111.71	 1.1302	pythia	  
+117839	 103.74	 1.1292	pythia	  
+117841	 89.550	 1.1293	pythia	  
+117843	 83.336	 1.1288	pythia	  
+117845	 77.604	 1.1287	pythia
+
+# single top baseline samples
+108343 0.56395  1.0744 herwig 0.582 0.630
+108344 0.56430  1.0737 herwig 0.582 0.630 
+108345 0.56434  1.0736 herwig 0.582 0.630
+108346 20.666 1.0825  herwig 20.853 23.918
+117360 8.5878 1.1037 pythia 9.220 9.851
+117361 8.5889 1.1035 pythia 9.220 9.851
+117362 8.5810 1.1045 pythia 9.220 9.851
+
+# Single-Top Pythia(P2011C) Baseline Samples
+110101   25.750  1.1042 pythia
+110102	 1.0988	 1.6542	pythia
+110103   14.683	 1.5235	pythia
+110104   1.5455	 1.5126	pythia
+110119   1.6424  1.1067 pythia
+110140   20.461  1.0933 pythia
+110141   2.1478  1.0884 pythia
+110142   9.7738  2.2888 pythia
+110143   1.0301  2.2694 pythia
+110144	 20.461	 1.0933	herwig
+110145	 2.1478	 1.0884	herwig
+110146	 9.8007	 2.2825	herwig
+110147	 1.0331	 2.2628	herwig
+
+# Single Top mass variation Samples
+110099	 29.250  1.0962   pythia	  
+110113	 27.798  1.0986   pythia	  
+110114	 27.081  1.1011   pythia	  
+110115	 26.404  1.1027   pythia	 
+110116	 25.117  1.1059   pythia	  
+110117	 24.506  1.1074   pythia	  
+110118	 23.901  1.1109   pythia	  
+110100	 22.768  1.1128   pythia	
+  
+110124	 23.483   1.0855   pythia	    
+110126	 22.475   1.0857   pythia	   
+110128	 21.515   1.0858   pythia	   
+110130	 19.747   1.0852   pythia	   
+110132	 18.929   1.0851   pythia	 
+110134	 18.150   1.0848   pythia	 
+110136	 25.672   1.0856   pythia	 
+110138	 16.709   1.0844   pythia	
+
+110135	 2.2806	  1.0740   pythia
+110123	 2.0208	  1.0726   pythia
+110125	 1.9053	  1.0713   pythia
+110127	 1.7975	  1.0707   pythia
+110129   1.6050   1.0699   pythia
+110131	 1.5182	  1.0713   pythia
+110133	 1.4380	  1.0702   pythia
+110137	 1.2924	  1.0705   pythia
+ 
+# single top ISR/FSR variation. Use baseline cross-sections
+110105	 25.753	 1.1041   pythia
+110106	 25.748	 1.1043   pythia
+110107	 1.0988	 1.6542   pythia
+110108	 1.0985	 1.6547   pythia
+110109	 14.683	 1.5235   pythia
+110110	 14.681	 1.5237   pythia
+110111	 1.5455	 1.5126   pythia
+110112	 1.5452	 1.5129   pythia
+
+117213	 0.36651 1.6531	pythia	  
+117214	 0.36647 1.6533	pythia	  
+117215	 0.36650 1.6532	pythia	  
+117216	 0.36649 1.6532	pythia	  
+117217	 0.36637 1.6537	pythia	  
+117218	 0.36632 1.6540	pythia	  
+117219	 8.5887	 1.1036	pythia	  
+117220	 8.5883	 1.1036	pythia	  
+117221	 8.5852	 1.1040	pythia	  
+117222	 8.5850	 1.1040	pythia	  
+117223	 8.5818	 1.1044	pythia	  
+117224	 8.5814	 1.1045	pythia	  
+117245	14.691   1.5227 pythia	   
+117246	14.691   1.5227 pythia	   
+
+#single top - FCNC (FS)
+117011	2.8171  1 pythia
+117012	0.47724 1 pythia
+117013	4.1642  1 pythia
+117014	0.92742 1 pythia
+
+# W+jets Sherpa
+147774  11866.0  1.0186 sherpa
+147775  11867.0  1.0185 sherpa
+147776  11858.0  1.0193 sherpa
+
+# Alpgen+pythia W+jets unfiltered samples (auto)
+147025	 8126.7   1   pythia	   
+147026	 1792.8   1   pythia	   
+147027	 542.30   1   pythia	   
+147028	 147.66   1   pythia	   
+147029	 37.751   1   pythia	   
+147030	 11.916   1   pythia	   
+147033	 8126.9   1   pythia	   
+147034	 1792.9   1   pythia	   
+147035	 542.42   1   pythia	   
+147036	 147.68   1   pythia	   
+147037	 37.760   1   pythia	   
+147038	 11.934   1   pythia	   
+147041	 8125.8   1   pythia	   
+147042	 1792.8   1   pythia	   
+147043	 542.21   1   pythia	   
+147044	 147.61   1   pythia	   
+147045	 37.738   1   pythia	   
+147046	 11.905   1   pythia	   
+
+
+
+# Alpgen+herwig/jimmy W+jets unfiltered samples
+107680	 8037.8	 1.176 herwig
+107681	 1579.5	 1.176 herwig
+107682	 477.31	 1.176 herwig
+107683	 133.89	 1.176 herwig
+107684	 35.614	 1.176 herwig	  
+107685	 10.545	 1.176 herwig	  
+107690	 8040.9	 1.176 herwig	  
+107691	 1581.0	 1.176 herwig	  
+107692	 477.53	 1.176 herwig	  
+107693	 133.83	 1.176 herwig	  
+107694	 35.579	 1.176 herwig	  
+107695	 10.561	 1.176 herwig	  
+107700	 8036.2	 1.176 herwig	  
+107701	 1579.5	 1.176 herwig	  
+107702	 477.50	 1.176 herwig	  
+107703	 133.78	 1.176 herwig
+107704	 35.593	 1.176 herwig	  
+107705	 10.534	 1.176 herwig	  
+
+# Alpgen+pythia W+bb+jets (auto)
+200256	 3.4528    1   pythia	  
+200257	 3.0665    1   pythia	  
+200258	 1.7101    1   pythia	  
+200259	 1.1064    1   pythia	  
+
+# Alpgen W+bb+jets
+107280 55.664 1.176 herwig
+107281 45.254 1.176 herwig
+107282 23.157 1.176 herwig
+107283 11.197 1.176 herwig
+
+# Alpgen+pythia W+c+jets (auto)
+200056   364.04   1   pythia
+200057   171.02   1   pythia
+200058   50.835   1   pythia
+200059   12.652   1   pythia
+200060   3.9114   1   pythia
+
+# Alpgen W+c+jets
+117293 807.98   1.52 herwig
+117294 267.66   1.52 herwig
+117295  69.891  1.52 herwig
+117296  20.564  1.52 herwig
+117297   4.3082 1.52 herwig
+
+# Alpgen+pythia W+cc+jets (auto)
+200156	 3.5314   1   pythia	  
+200157	 3.1510   1   pythia	  
+200158	 1.8468   1   pythia	  
+200159	 1.2385   1   pythia	  
+
+# Alpgen W+cc+jets
+117284 150.17  1.176 herwig
+117285 132.69  1.176 herwig
+117286  71.838 1.176 herwig
+117287  30.256 1.176 herwig
+
+# Alpgen+pythia W+jets unfiltered samples
+117680	 8136.8	  1.133 pythia  
+117681	 1791.5	  1.133 pythia  
+117682	 541.60	  1.133 pythia  
+117683	 146.65	  1.133 pythia  
+117684	 37.334	  1.133 pythia  
+117685	 11.355	  1.133 pythia  
+117690	 8133.4	  1.133 pythia  
+117691	 1792.7	  1.133 pythia  
+117692	 541.27	  1.133 pythia  
+117693	 146.49	  1.133 pythia  
+117694	 37.341	  1.133 pythia  
+117695	 11.364	  1.133 pythia  
+117700	 8135.7	  1.133 pythia 	  	  
+117701	 1793.7	  1.133 pythia  
+117702	 541.24	  1.133 pythia 	  	  
+117703	 146.48	  1.133 pythia  
+117704	 37.344	  1.133 pythia  
+117705	 11.477	  1.133 pythia   	
+
+# Alpgen+pythia W+bb+jets
+110801	 52.255  1.133 pythia
+110802	 45.540  1.133 pythia
+110803	 23.671  1.133 pythia
+110804	 12.525  1.133 pythia
+
+# Alpgen+pythia W+cc+jets
+126606	 143.07   1.133 pythia  	  
+126607	 143.68   1.133 pythia  	  
+126608	  80.762  1.133 pythia  	  
+126609	  35.932  1.133 pythia  	  
+
+# Alpgen+pythia W+c+jets
+126601	 758.93  1.52 pythia   
+126602	 274.24  1.52 pythia
+126603	 71.634  1.52 pythia    
+126604	 16.425  1.52 pythia 
+126605	 4.7468  1.52 pythia 
+
+#Sherpa Massive B/C W+jets
+167740	 140.34	  1	sherpa #WenuMassiveCBPt0 BFilter
+167741	 537.84	  1	sherpa #WenuMassiveCBPt0 CJetFilterBVeto
+167742 10298.0    1	sherpa #WenuMassiveCBPt0 CJetVetoBVeto
+167743	 140.39	  1	sherpa #WmunuMassiveCBPt0 BFilter
+167744	 466.47	  1	sherpa #
+167745 10367.0    1	sherpa #
+167746	 140.34	  1	sherpa #
+167747	 505.45	  1	sherpa #
+167748 10326.0    1	sherpa #
+
+# Boosted W+jets
+167767	  11.512    1  sherpa  # Pt=70-140 GeV BFilter	
+167768	  49.844    1  sherpa  # Pt=70-140 GeV CJetFilterBVeto	
+167769	  189.17    1  sherpa  # Pt=70-140 GeV CJetVetoBVeto
+167776	  1.9656    1  sherpa  # Pt=140-280 GeV BFilter	
+167777	  6.8579    1  sherpa  # Pt=140-280 GeV CJetFilterBVet	
+167778	  22.325    1  sherpa  # Pt=140-280 GeV CJetVetoBVeto	
+167779	  0.15262   1  sherpa  # Pt=280-500 GeV BFilter
+167780	  0.43085   1  sherpa  # Pt=280-500 GeV CJetFilterBVeto
+167781	  1.2567    1  sherpa  # Pt=280-500 GeV CJetVetoBVeto
+167782	  0.15237   1  sherpa  # Pt=280-500 GeV BFilter
+167783	  0.42023   1  sherpa  # Pt=280-500 GeV CJetFilterBVeto
+167784	  1.2677    1  sherpa  # Pt=280-500 GeV CJetVetoBVeto
+167785	  0.15245   1  sherpa  # Pt=280-500 GeV BFilter
+167786	  0.42807   1  sherpa  # Pt=280-500 GeV CJetFilterBVeto	
+167787	  1.2563    1  sherpa  # Pt=280-500 GeV CJetVetoBVeto	 
+167791	  0.010167  1  sherpa  # Pt=500 GeV BFilter	
+167792	  0.024353  1  sherpa  # Pt=500 GeV CJetFilterBVeto	
+167793	  0.067062  1  sherpa  # Pt=500 GeV CJetVetoBVeto	
+167794	  0.010174  1  sherpa  # Pt=500 GeV BFilter	
+167795	  0.024558  1  sherpa  # Pt=500 GeV CJetFilterBVeto
+167796	  0.067331  1  sherpa  # Pt=500 GeV CJetVetoBVeto
+
+
+# Z+jets sherpa samples
+147770	 1207.8	 1.028 sherpa  
+147771	 1207.7	 1.028 sherpa  
+147772	 1206.9	 1.028 sherpa  
+147773	 6520.4	 1.028 sherpa  
+
+# Z+jets sherpa, massive b,c
+167749	 31.046	  1 sherpa	    
+167750	 314.26	  1 sherpa	    
+167751	 763.05	  1 sherpa	    
+167752	 31.036	  1 sherpa	    
+167753	 314.80	  1 sherpa	    
+167754	 764.01	  1 sherpa	    
+167755	 31.008	  1 sherpa	    
+167756	 314.49	  1 sherpa	    
+167757	 764.69	  1 sherpa	    
+167758	  176.02  1 sherpa	    
+167759	  1677.6  1 sherpa	    
+167760	  4136.2  1 sherpa	    
+
+# Boosted Z+jets sherpa, massive b,c
+167797	2.4338   1 sherpa	 
+167798	10.467   1 sherpa	 
+167799	16.592   1 sherpa	 
+167800	2.4355   1 sherpa	 
+167801	10.450   1 sherpa	 
+167802	16.590   1 sherpa
+167803	2.4347         1 sherpa	 
+167804	10.475         1 sherpa	 
+167805	16.589         1 sherpa	 	 
+167806	14.007   1 sherpa	 
+167807	58.676   1 sherpa	 
+167808	93.907   1 sherpa	 
+167809	0.38000	 1 sherpa	  
+167810	1.4698	 1 sherpa	  
+167811	2.1314	 1 sherpa	  
+167812	0.38005	 1 sherpa	  
+167813	1.4767	 1 sherpa	  
+167814	2.1291	 1 sherpa
+167815	0.38206        1 sherpa	 
+167816	1.4737         1 sherpa	 
+167817	2.1262         1 sherpa	 	  
+167818	2.1804   1 sherpa	 
+167819	8.2842   1 sherpa	 
+167820	12.036   1 sherpa
+167821	0.026240       1 sherpa	 
+167822	0.093482       1 sherpa	 
+167823	0.12228        1 sherpa	 
+167824	0.026161       1 sherpa	 
+167825	0.093396       1 sherpa	 
+167826	0.12269        1 sherpa	 
+167827	0.025695       1 sherpa	 
+167828	0.092747       1 sherpa	 
+167829	0.12247        1 sherpa	 
+167830	0.14741        1 sherpa	 
+167831	0.52054        1 sherpa	 
+167832  0.68537        1 sherpa	 
+167833	0.0015317      1 sherpa	 
+167834	0.0053609      1 sherpa	 
+167835	0.0064512      1 sherpa
+167836  0.00140688     1 sherpa
+167837  0.0053727      1 sherpa	 
+167838	0.0064581      1 sherpa	 
+167839	0.0015247      1 sherpa	 
+167840	0.0052322      1 sherpa	 
+167841	0.0064510      1 sherpa	 
+167842	0.0086086      1 sherpa	 
+167843	0.029068       1 sherpa	 
+167844	0.035493       1 sherpa	 
+
+
+# Alpgen+herwig Z+jets unfiltered samples
+107650	 711.76	 1.229 herwig	   
+107651	 155.20	 1.229 herwig	   
+107652	 48.739	 1.229 herwig	   
+107653	 14.222	 1.229 herwig	   
+107654	 3.7471	 1.229 herwig	   
+107655	 1.0942	 1.229 herwig	   
+107660	 712.06	 1.229 herwig	   
+107661	 154.78	 1.229 herwig	   
+107662	 48.884	 1.229 herwig	   
+107663	 14.196	 1.229 herwig	   
+107664	 3.8024	 1.229 herwig	   
+107665	 1.1094	 1.229 herwig	   
+107670	 711.89	 1.229 herwig	   
+107671	 155.09	 1.229 herwig	   
+107672	 48.805	 1.229 herwig	   
+107673	 14.140	 1.229 herwig	   
+107674	 3.7711	 1.229 herwig	   
+107675	 1.1122	 1.229 herwig	   
+147078   1.1330	 1.229 herwig    
+147086   1.1348	 1.229 herwig
+147094   1.1365	 1.229 herwig
+
+
+# Alpgen+herwig Znunu+bb/cc (auto)
+167060	 44.067    	1.2290  herwig
+167061	 17.406    	1.2290  herwig
+167062	  6.3954   	1.2290  herwig
+167063	  2.2741	1.2290  herwig
+166990	 70.773		1.2290  herwig   
+166991	 33.822		1.2290  herwig   
+166992	 15.043		1.2290  herwig   
+166993	  7.1703	1.2290  herwig	  
+
+# Alpgen+herwig Z+jets low mass
+146830	 3477.9	 1.195 herwig	    
+146831	 108.88	 1.195 herwig	    
+146832	 52.651	 1.195 herwig	    
+146833	 11.309	 1.195 herwig	    
+146834	 2.5743	 1.195 herwig	    
+146835	 0.69211 1.195 herwig	    
+146840	 3477.8	 1.195 herwig	    
+146841	 108.63	 1.195 herwig	    
+146842	 52.675	 1.195 herwig	    
+146843	 11.283	 1.195 herwig	    
+146844	 2.5690	 1.195 herwig	    
+146845	 0.69435 1.195 herwig	    
+146850	 3478.1	 1.195 herwig	    
+146851	 108.85	 1.195 herwig	    
+146852	 52.777	 1.195 herwig	    
+146853	 11.295	 1.195 herwig	    
+146854	 2.5899	 1.195 herwig	    
+146855	 0.69297 1.195 herwig
+	
+# Alpgen+pythia Z+jets unfiltered samples
+117650   718.89	 1.18 pythia     
+117651   175.60	 1.18 pythia     
+117652	 58.849	 1.18 pythia     
+117653	 15.560	 1.18 pythia     
+117654	 3.9322	 1.18 pythia     
+117655	 1.1994	 1.18 pythia     
+117660   718.91	 1.18 pythia     
+117661   175.81	 1.18 pythia     
+117662	 58.805	 1.18 pythia     
+117663	 15.589	 1.18 pythia     
+117664	 3.9072	 1.18 pythia     
+117665	 1.1933	 1.18 pythia     
+117670	 718.80	 1.18 pythia     
+117671	 175.83	 1.18 pythia     
+117672	 58.630	 1.18 pythia     
+117673	 15.508	 1.18 pythia     
+117674	 3.9526	 1.18 pythia     
+117675	 1.1805	 1.18 pythia     
+
+# Alpgen+pythia Z+jets unfiltered samples (auto)
+147105	 718.97   1   pythia	  
+147106	 175.70   1   pythia	  
+147107	 58.875   1   pythia	  
+147108	 15.636   1   pythia	  
+147109	 4.0116   1   pythia	  
+147110	 1.2592   1   pythia	  
+147113	 719.16   1   pythia	  
+147114	 175.74   1   pythia	  
+147115	 58.882   1   pythia	  
+147116	 15.673   1   pythia	  
+147117	 4.0057   1   pythia	  
+147118	 1.2544   1   pythia	  
+147121	 719.18   1   pythia	  
+147122	 175.72   1   pythia	  
+147123	 58.862   1   pythia	  
+147124	 15.664   1   pythia	  
+147125	 4.0121   1   pythia	  
+147126	 1.2560   1   pythia	  
+
+# Alpgen+pythia Z+jets+bb unfiltered samples (auto)
+200332	 0.45845   1   pythia	  
+200333	 0.33029   1   pythia	  
+200334	 0.14839   1   pythia	  
+200335	 0.079524  1   pythia	  
+200340	 0.45873   1   pythia	  
+200341	 0.33051   1   pythia	  
+200342	 0.14737   1   pythia	  
+200343	 0.079577  1   pythia	  
+200348	 0.45861   1   pythia	  
+200349	 0.32982   1   pythia	  
+200350	 0.14795   1   pythia	  
+200351	 0.080066  1   pythia	  
+
+# Alpgen+pythia Z+jets+bb unfiltered samples
+110817	 8.0397	 1.18 pythia	   
+110818	 3.2353	 1.18 pythia	   
+110819	 1.1388	 1.18 pythia	   
+110820	 0.49066 1.18 pythia	   
+110821	 8.0422	 1.18 pythia	   
+110822	 3.2155	 1.18 pythia	   
+110823	 1.1400	 1.18 pythia	   
+110824	 0.50943 1.18 pythia	   
+110825	 8.0358	 1.18 pythia	   
+110826	 3.2299	 1.18 pythia	   
+110827	 1.1445	 1.18 pythia	   
+110828	 0.49266 1.18 pythia
+
+# Alpgen+pythia Z+jets+cc unfiltered samples (auto)
+200432	 0.41173   1   pythia	  
+200433	 0.29740   1   pythia	  
+200434	 0.13739   1   pythia	  
+200435	 0.077049  1   pythia	  
+200440	 0.41171   1   pythia	  
+200441	 0.29728   1   pythia	  
+200442	 0.13750   1   pythia	  
+200443	 0.077065  1   pythia	  
+200448	 0.41129   1   pythia	  
+200449	 0.29818   1   pythia	  
+200450	 0.13744   1   pythia	  
+200451	 0.077180  1   pythia	  
+
+
+# Alpgen+pythia Z+jets+cc unfiltered samples
+110805	 15.107	 1.18 pythia   
+110806	 7.2131	 1.18 pythia   
+110807	 3.0320	 1.18 pythia   
+110808	 1.1767	 1.18 pythia   
+110809	 15.115	 1.18 pythia   
+110810	 7.1980	 1.18 pythia   
+110811	 3.0303	 1.18 pythia   
+110812	 1.1738	 1.18 pythia   
+110813	 15.119	 1.18 pythia   
+110814	 7.2016	 1.18 pythia   
+110815	 3.0385	 1.18 pythia   
+110816	 1.1677	 1.18 pythia
+
+# Alpgen Z+bb+jets
+109300	 8.3858	 1.229 herwig   
+109301	 3.2574	 1.229 herwig   
+109302	 1.1981	 1.229 herwig   
+109303	 0.50935 1.229 herwig   
+109305	 8.3786  1.229 herwig   
+109306	 3.2665	 1.229 herwig   
+109307	 1.1874	 1.229 herwig   
+109308	 0.50538 1.229 herwig   
+109310	 8.3888	 1.229 herwig   
+109311	 3.2532	 1.229 herwig   
+109312	 1.1956	 1.229 herwig   
+109313	 0.50820 1.229 herwig
+167103   0.55878 1.229 herwig
+167108   0.56046 1.229 herwig
+
+# Alpgen Z+cc+jets
+126414	 15.660	 1.229 herwig	   
+126415	 6.8990	 1.229 herwig	   
+126416	 2.9218	 1.229 herwig	   
+126417	 1.1371	 1.229 herwig	   
+126418	 15.647	 1.229 herwig	   
+126419	 6.8955	 1.229 herwig	   
+126420	 2.9124	 1.229 herwig	   
+126421	 1.1357	 1.229 herwig	   
+117706	 15.656	 1.229 herwig	   
+117707	 6.8980	 1.229 herwig	   
+117708	 2.9056	 1.229 herwig	   
+117709	 1.1376	 1.229 herwig
+
+# PowhegPythia8 W+jets, Z+jets
+147800	 6891.0  1 pythia
+147801	 6891.0  1 pythia
+147802	 6889.8  1 pythia
+147803	 4790.2  1 pythia
+147804	 4790.2  1 pythia
+147805	 4790.9  1 pythia
+147806	 1109.9  1 pythia
+147807	 1109.8  1 pythia
+147808	 1109.9  1 pythia
+
+# Alpgen+Herwig diboson
+107100   2.4970   1.2307	  herwig
+107101   1.2491   1.2307	  herwig
+107102   0.59200  1.2307	  herwig
+107103   0.32847  1.2307	  herwig
+107104   0.80162  1.2785	  herwig
+107105   0.52407  1.2785	  herwig
+107106   0.29484  1.2785	  herwig
+107107   0.18258  1.2785	  herwig
+107108   0.60660  1.3718	  herwig
+107109   0.28893  1.3718	  herwig
+107110   0.11853  1.3718	  herwig
+107111   0.056223 1.3718	  herwig
+110829   9.9819   1.2832	  herwig
+110830   5.0144   1.2832	  herwig
+110831   2.3658   1.2832	  herwig
+110832   1.3139   1.2832	  herwig
+
+# Herwig diboson (SM group)
+105985 12.416  1.6833	herwig
+105986 0.99244 1.5496	herwig
+105987 3.6666  1.9011	herwig
+
+# MC@NLO+Herwig diboson (SM group)
+105921	 0.62155 1.0267	   herwig
+105922	 0.61952 1.0301	   herwig
+105923	 0.62175 1.0264	   herwig
+105924	 0.62084 1.0279	   herwig
+105925	 0.62073 1.0280	   herwig
+105926	 0.62037 1.0286	   herwig
+105927	 0.62065 1.0282	   herwig
+105928	 0.62077 1.0280	   herwig
+105929	 0.61937 1.0303	   herwig
+
+# Sherpa diboson
+126892	 5.4990   1.06 sherpa
+126893	 9.7508   1.05 sherpa
+126894	 8.7403   1.00 sherpa
+126895	 0.49601  1.05 sherpa
+
+# Powheg+Pythia  diboson
+126928	 0.59774 1.068	  pythia
+126929	 0.59755 1.068	  pythia
+126930	 0.59753 1.068	  pythia
+126931	 0.59772 1.068	  pythia
+126932	 0.59724 1.069	  pythia
+126933	 0.59737 1.068	  pythia
+126934	 0.59699 1.069	  pythia
+126935	 0.59770 1.068	  pythia
+126936	 0.59759 1.068	  pythia
+126937	 0.069778  1	  pythia
+126938	 0.14539   1	  pythia
+126939	 0.10214   1	  pythia
+126940	 0.070067  1	  pythia
+126941	 0.10301   1	  pythia
+126942	 0.0081492 1	  pythia
+126949	 0.054310  1	  pythia
+126950	 0.054310  1	  pythia
+126951	 0.054310  1	  pythia
+
+#sherpa same sign WWjj
+129800	 1.5837  1	  sherpa
+
+#MadGraph+Pythia same sign WWjj
+158818   0.34442 1  pythia8  #AU2CTEQ6L1
+158819   0.36936 1  pythia8  #AU2
+
+#QCD DiJet
+147900	 71790032500.0	1 pythia8
+147901	 1053483850.0	1 pythia8
+147902	 2836013.0	1 pythia8
+147903	 34891.0	1 pythia8
+147904	 199.29	  	1 pythia8
+147905	 1.3711	  	1 pythia8
+147906	 0.026164 	1 pythia8
+147907	 0.00059369	1 pythia8
+
+# QCD DiJet Weighted
+147910	 71796589000.0	1 pythia8
+147911	 9396193.0	1 pythia8
+147912	 105175.0	1 pythia8
+147913	 664.99	  	1 pythia8
+147914	 4.5658	  	1 pythia8
+147915	 0.085502	1 pythia8
+147916	 0.0019462	1 pythia8
+147917	 0.00059308	1 pythia8
+
+# QCD diJet Herwig++
+159110	  117777.0	 1    herwigpp	  
+159111	 5260419.0	 1    herwigpp	  
+159112	   48674.0	 1    herwigpp	  
+159113	 309.26          1    herwigpp	  
+159114	 2.2622		 1    herwigpp	  
+159115	 0.045668	 1    herwigpp	  
+159116	 0.0011506	 1    herwigpp	  
+159117	 0.00037003	 1    herwigpp	  
+
+# JF17
+129160	 93060010  1	 pythia8  
+
+#Di-Top Pt Slice Samples  
+110911	0.19988   1 pythia8	  
+110912	0.064086  1 pythia8	  
+110913	0.022587  1 pythia8	  
+110914	0.008513  1 pythia8	  
+110915	0.003409  1 pythia8	  
+
+# background samples for same-sign di-lepton
+119353 0.10410    1.1700  pythia # ttW
+119354 0.0933317  1.1700  pythia # ttW+j
+119355 0.067690   1.3500  pythia # ttZ
+119356 0.087339   1.3500  pythia # ttZ+j
+119583 0.00091901 2.0685  pythia # ttWW
+158813 0.0017974  1.0576  pythia # ttWW
+158814 0.0021804  1.0581  pythia # ttWW
+174830 0.053372	  1.1700  pythia #ttbarWjExcl
+174831 0.041482	  1.1700  pythia #ttbarWjjIncl
+174832 0.045357	  1.3500  pythia #ttbarZjExcl
+174833 0.039772	  1.3500  pythia #ttbarZjjIncl
+
+# stop grid, Herwigpp
+118494	0.85420	 	1 herwigpp
+118495	0.85434	 	1 herwigpp
+118496	0.035062	 1 herwigpp
+118497	0.035033	 1 herwigpp
+118498	0.035086	 1 herwigpp
+118499	0.0010430	 1 herwigpp
+118500	0.0010459	 1 herwigpp
+118501	0.0010450	 1 herwigpp
+127770	0.0010490	 1 herwigpp
+127771	0.0010466	 1 herwigpp
+127772	0.0010464	 1 herwigpp
+127773	0.0010536	 1 herwigpp
+127774	0.0010450	 1 herwigpp
+127775	0.0010495	 1 herwigpp
+127776	0.0010463	 1 herwigpp
+127777	0.0010476	 1 herwigpp
+127778	0.0010494	 1 herwigpp
+127779	0.0010454	 1 herwigpp
+127780	0.0017790	 1 herwigpp
+127781	0.0017785	 1 herwigpp
+127782	0.0017736	 1 herwigpp
+127783	0.0017787	 1 herwigpp
+127784	0.0017761	 1 herwigpp
+127785	0.0017829	 1 herwigpp
+127786	0.0017754	 1 herwigpp
+127787	0.0017684	 1 herwigpp
+127788	0.0017779	 1 herwigpp
+127789	0.0017813	 1 herwigpp
+127790	0.0017694	 1 herwigpp
+127791	0.0017808	 1 herwigpp
+127792	0.0030641	 1 herwigpp
+127793	0.0030701	 1 herwigpp
+127794	0.0030659	 1 herwigpp
+127795	0.0030538	 1 herwigpp
+127796	0.0030588	 1 herwigpp
+127797	0.0030505	 1 herwigpp
+127798	0.0030810	 1 herwigpp
+127799	0.0030796	 1 herwigpp
+127800	0.0030654	 1 herwigpp
+127801	0.0030623	 1 herwigpp
+127802	0.0030633	 1 herwigpp
+127803	0.0054080	 1 herwigpp
+127804	0.0053861	 1 herwigpp
+127805	0.0054016	 1 herwigpp
+127806	0.0054361	 1 herwigpp
+127807	0.0053818	 1 herwigpp
+127808	0.0054020	 1 herwigpp
+127809	0.0053906	 1 herwigpp
+127810	0.0053959	 1 herwigpp
+127811	0.0054127	 1 herwigpp
+127812	0.0054017	 1 herwigpp
+127813	0.0097439	 1 herwigpp
+127814	0.0097548	 1 herwigpp
+127815	0.0097724	 1 herwigpp
+127816	0.0097751	 1 herwigpp
+127817	0.0097619	 1 herwigpp
+127818	0.0097565	 1 herwigpp
+127819	0.0097674	 1 herwigpp
+127820	0.0097727	 1 herwigpp
+127822	0.018230	 1 herwigpp
+127823	0.018126	 1 herwigpp
+127824	0.018195	 1 herwigpp
+127825	0.018152	 1 herwigpp
+127826	0.018136	 1 herwigpp
+127827	0.018186	 1 herwigpp
+127828	0.018151	 1 herwigpp
+127829	0.018195	 1 herwigpp
+127830	0.035162	 1 herwigpp
+127832	0.035073	 1 herwigpp
+127833	0.035114	 1 herwigpp
+127834	0.070832	 1 herwigpp
+127835	0.070772	 1 herwigpp
+127836	0.070664	 1 herwigpp
+127837	0.070671	 1 herwigpp
+127838	0.070660	 1 herwigpp
+127839	0.070658	 1 herwigpp
+127840	0.15005	 1 herwigpp
+127841	0.15030	 1 herwigpp
+127842	0.15051	 1 herwigpp
+127843	0.14983	 1 herwigpp
+127844	0.15025	 1 herwigpp
+127845	0.34259	 1 herwigpp
+127846	0.34317	 1 herwigpp
+127847	0.34273	 1 herwigpp
+127848	0.34268	 1 herwigpp
+127849	0.85430	 1 herwigpp
+127850	2.4112	 1 herwigpp
+127851	2.4084	 1 herwigpp
+144208	4.3017	 1 herwigpp
+144209	1.4094	 1 herwigpp
+144210	4.3024	 1 herwigpp
+144211	2.4096	 1 herwigpp
+144212	1.4094	 1 herwigpp
+144213	1.4104	 1 herwigpp
+164241	8.1029	 1 herwigpp
+164242	2.4092	 1 herwigpp
+164243	0.85575	 1 herwigpp
+164244	0.34324	 1 herwigpp
+164245	0.15060	 1 herwigpp
+164246	0.070788	 1 herwigpp
+164247	0.035127	 1 herwigpp
+164248	0.018182	 1 herwigpp
+164249	0.0097983	 1 herwigpp
+164250	0.0054139	 1 herwigpp
+164251	0.0030691	 1 herwigpp
+164252	0.0017803	 1 herwigpp
+164253	0.0010505	 1 herwigpp
+164646	8.0957	 	 1 herwigpp
+164647	1.4065	 	 1 herwigpp
+164648	0.035084	 1 herwigpp
+164649	0.0097639	 1 herwigpp
+
+#stop Madgraph + fPythia
+166987	 0.0041071 1 pythia
+166988	 0.12079   1 pythia
+166989	 1.3442	   1 pythia
+
+
+# Sherpa W/Z + Gamma + jets Samples
+126739	 162.88   1 sherpa      
+126742	 162.89   1 sherpa      
+126856	 162.96   1 sherpa      
+145161	  32.298  1 sherpa      
+145162	  32.326  1 sherpa      
+126854	  32.317  1 sherpa      
+
+#Alpgen+Herwig W + Gamma + jets Samples
+146430  230.20  1 herwig	 
+146431  59.213  1 herwig	 
+146432  21.506  1 herwig	 
+146433  7.1065  1 herwig	 
+146434  2.1219  1 herwig	 
+146435  0.46563 1 herwig	 
+
+#Alpgen+Herwig W + GammaGamma + jets Samples
+129820	 0.027036  1 herwig	  
+129821	 0.021605  1 herwig	  
+129822	 0.013953  1 herwig	  
+129823	 0.026986  1 herwig	  
+129824	 0.021595  1 herwig	  
+129825	 0.013910  1 herwig	  
+129826	 0.026971  1 herwig	  
+129827	 0.021552  1 herwig	  
+129828	 0.013965  1 herwig	  
+
+#FCNC top quark decays
+110600 0.0004037 1 pythia # tt_bWuZlep
+110601 0.0004147 1 pythia # bWuZlep_mt170
+110602 0.0003919 1 pythia # tt_bWuZlep_mt175
+110603 0.0004037 1 pythia # LessPS_tt_bWuZlep
+110604 0.0004037 1 pythia # MorePS_tt_bWuZlep 
+
+# ttbar with modified branching ratios for top quarks
+110608  110.77   1 pythia
+110609  110.77   1 pythia
+
+#Triboson
+167006	 0.0050961	 1.0000	  pythia   #WWWStar lnulnulnu
+167007	 0.0015546	 1.0000	  pythia   #ZWWStar lllnulnu
+167008	 0.00033239	 1.0000	  pythia   #ZZZStar nunullll
+
+# ttbar+gamma pythia
+164439	 0.092638	1  pythia
+# ttbar+gamma MG+pythia
+167730   0.00038069	1  pythia
+167731   0.00038029	1  pythia
+167732	 0.084932	1  pythia       
+167733	 0.084667	1  pythia       
+167734	 0.16851	1  pythia       
+167735	 0.20413	1  pythia       
+167736	 0.20370	1  pythia       
+167737	 0.16850	1  pythia       
+169701	 0.0020646	1  pythia       
+169702	 0.0011898	1  pythia      
+169703	 0.0030346	1  pythia      
+169704	 0.36561	1  pythia      
+169705	 0.17333	1  pythia      
+169706	 0.52671	1  pythia
+
+#ttH
+169887   0.057971 1.0193 pythia8 #PowHelttH125inc AllHad 
+169888   0.055519 1.0201 pythia8 #PowHelttH125inc ljets  
+169889   0.013271 1.0182 pythia8 #PowHelttH125inc dil	 
+
+
+# ZprimeTt
+110901 3.9325    1 pythia8
+110902 1.2433    1 pythia8
+110903 0.39360   1 pythia8
+110904 0.13872   1 pythia8
+110905 0.052433  1 pythia8
+110906 0.021172  1 pythia8
+110907 0.0089422 1 pythia8
+110908 0.0039337 1 pythia8
+110909 0.0018023 1 pythia8
+110910 0.0004340 1 pythia8
+
+# Wjets antikt10 filter
+190001 0.71565  1.1330  pythia8
+190002 1.9920   1.1330  pythia8
+190003 2.2144   1.1330  pythia8
+190004 1.4867   1.1330  pythia8
+190005 1.1185   1.1330  pythia8
+190011 0.70640  1.1330  pythia8
+190012 1.9221  1.1330  pythia8
+190013 2.1249  1.1330  pythia8
+190014 1.4169  1.1330  pythia8
+190015 1.0612  1.1330  pythia8
+190021 0.70468  1.1330  pythia8
+190022 1.9309  1.1330  pythia8
+190023 2.1416  1.1330  pythia8
+190024 1.4297  1.1330  pythia8
+190025 1.0705  1.1330  pythia8
+
+190050 0.012462 1.1330  pythia8
+190051 0.11981 1.1330  pythia8
+190052 0.28254 1.1330  pythia8
+190053 0.73213 1.1330  pythia8
+190040 0.013282 1.1330  pythia8
+190041 0.22439 1.1330  pythia8
+190042 0.69188 1.1330  pythia8
+190043 1.7859 1.1330  pythia8
+190030 0.087568 1.1330  pythia8
+190031 0.47215 1.1330  pythia8
+190032 0.56999 1.1330  pythia8
+190033 0.37909 1.1330  pythia8
+190034 0.29910 1.1330  pythia8
+
+117840 123.27  1.1998  pythia8
+117842 106.46  1.1998  pythia8

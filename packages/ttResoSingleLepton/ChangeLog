@@ -1,0 +1,325 @@
+2014-11-19 J.Veatch <jveatch@cern.sh>
+	* Update HFsysboosted_SFs.root to fix jesup/dw
+	* tag ttResoSingleLepton-00-00-49 (by Jiahang on Dec 3rd)
+
+2014-11-11 T.Heck <theck@cern.ch>
+	* Latest reference for Wjet SF tool
+	* tag ttResoSingleLepton-00-00-48
+
+2014-11-10 T.Heck <theck@cern.ch>
+	* Updated HFsys_SFs.root for resolved Wjet SFs, now including TTBar PowhegPythia weak corrections
+
+2014-11-04 T.Heck <theck@cern.ch>
+	* Fix in HFsys tool, since some combined boosted SFs are not available, preventing crash
+	* tag ttResoSingleLepton-00-00-47
+
+2014-11-04 T.Heck <theck@cern.ch>
+	* Reworked HFsys interface for explicit resolved/boosted selection due to different available systematics
+	* Removed explicit tags from SF/yield files for easier updates
+	* Added HFsys_SFs.root based on latest HFsys_SFs_2014_10_15.root
+	* Added HFsys_WjetYields.txt based on latest HFsys_WjetYields_2014_10_15.txt
+	* Added HFsysboosted_SFs.root based on latest HFsysboosted_SFs_2014_10_15.root
+	* Added deprecated tag to HFsysboosted.cxx/.h files, since it HFsys.cxx/.h is also used for boosted (should we delete it?)
+	* tag ttResoSingleLepton-00-00-46
+
+2014-10-30 J.Veatch <jveatch@cern.sh>
+	* Added HFsysboosted_SFs_2014_10_15.root
+
+2014-10-14 T.Heck <theck@cern.ch>
+	* Added HFsys_SFs_2014_10_15.root
+	* Added HFsys_WjetYields_2014_10_15.txt
+	* Updated WjetSF version with electronSF fix, thus changed event yields
+	* Implementd more JES / Btag breakdown
+
+2014-09-24 J. Zhong <jiahang.zhong@cern.ch>
+	* tag ttResoSingleLepton-00-00-45
+
+2014-08-27 C.Pollard <cpollard@cern.ch>
+	* TTBarElectronSFTool: print warning for electrons nearer than dR = 0.2 to jets, but return reasonable SF.
+
+2014-08-14 T.Heck <theck@cern.ch>
+	* Added HFsys_SFs_2014_08_14.root WjetSF file with systematic breakdown for JES, Btag and WShape
+	* Changed default WjetSF files in HFsys.h
+
+2014-08-13 T.Heck <theck@cern.ch>
+	* Added more exception handling for not yet available systematics in HFsys
+	* Added more systematics to sys list in HFsys to be added soon
+
+2014-07-23 S.Calvet <scalvet@cern.ch>
+	* tag ttResoSingleLepton-00-00-44
+
+2014-07-22 J.Veatch <jveatch@cern.ch>
+	* Added HFSysboosted_SFs_2014_07_15.root with JES systematics
+
+2014-07-17 T.Heck <theck@cern.ch>
+	* Updated HFSys_SFs_2014_07_15.root with proper symmetrization JEFFdw and JERdw
+
+2014-07-15 C.Pollard <cpollard@cern.ch>
+	* Update histograms for TTBarElectronSFTool
+	* Remove jet pt SF parameterization
+
+2014-07-15 T.Heck <theck@cern.ch>
+	* Add HFSysboosted_SFs_2014_07_15.root as new resolved Wjet SFs file
+	* Updated default SF files in HFsys.cxx
+	* Added more systematics to HFsys.cxx
+	* Added applyCA option to GetWeight() in HFsys to retrieve pure HFSFs without CA
+
+2014-06-26 J.Veatch <jveatch@cern.ch>
+	* Add HFSysboosted_SFs_2014_06_26.root as new boosted Wjet SFs file
+	* Fixed bug in ttResoSingleLepton/Root/TTBarLeptonJetsBuilder_dRmin.cxx
+
+2014-06-26 T. Heck <theck@cern.ch>
+	* Updated default SF files in HFsys.cxx
+
+2014-06-26 T. Heck <theck@cern.ch>
+	* Add HFSys_SFs_2014_06_26.root as new Wjet SFs file
+	* Add HFSys_WjetYields_2014_06_26.root as new Wjet SFs yields file
+
+2014-06-13 J. Zhong <jiahang.zhong@cern.ch>
+	* Add LargeRJetResoTool from Ruchika (with modification)
+	* tag ttResoSingleLepton-00-00-43
+
+2014-06-12 C.Pollard <cpollard@cern.ch>
+	* Update electron miniiso + trig scale factors
+
+2014-05-20 J. Veatch <jveatch@cern.ch>
+	* Included latest HFSFs in boosted W+jets histos
+	* Removed nnlo corrections from pdf variations
+
+2014-05-20 J. Zhong <jiahang.zhong@cern.ch>
+	* Merge data/share dir
+
+2014-05-20 T. Heck <theck@cern.ch>
+	* Fixed a bug for the resolved Wjet HF SFs with qcd up/qcd down
+
+2014-05-19 J. Veatch <jveatch@cern.ch>
+	* Fixed bug in PDF variations in HFsysboosted_SFs_2014_05_05.root
+
+2014-05-16 J. Veatch <jveatch@cern.ch>
+	* Updated HFsysboosted_SFs_2014_05_05.root to remove QCD from SF calculations
+	* Renamed nnlo as nominal
+
+2014-05-16 T. Heck <theck@cern.ch>
+	* Updated resolved HFsys_SFs_2014_05_05.root W+Jets SFs to use nnlo corrections as default
+	* Added removed nnlo as option from syst flags in HFsys.cxx
+
+2014-05-15 J.Veatch <jveatch@cern.ch>
+	* Updated boosted W+Jets SFs to use nnlo corrections as default
+	* Added new syst flags to HFsys.cxx
+
+2014-05-14 C.Pollard <cpollard@cern.ch>
+	* Update histograms for TTBarElectronSFTool
+	* Add AFII option to TTBarElectronSFTool, but no AFII SFs available for electrons near jets yet
+
+2014-05-14 J.Veatch <jveatch@cern.ch>
+	* Add HFsysboosted_SFs_2014_05_05.root
+
+2014-05-13 C.Pollard <cpollard@cern.ch>
+	* Add TTBarElectronSFTool
+	* tag ttResoSingleLepton-00-00-42
+
+2014-05-06 T.Heck <theck@cern.ch>
+	* Update HFsys macro for Wjet HF SFs with updated selection
+	* Add HFsys_SFs_2014_05_05.root SFs
+	* Add HFsys_WjetYields_2014_05_05.txt Wjet pretag yields
+	* Update HFsys.cxx adding systematic options nnlo, qcdup and qcddw
+	* Update HFsys.h setting default version *2014_05_05* input files
+	* tag ttResoSingleLepton-00-00-41
+
+2014-04-29 S.Fleischmann <sebastian.fleischmann -at- cern.ch>
+	* Add calculation of uncertainties for EWS corrections
+	* tag ttResoSingleLepton-00-00-40
+
+2014-04-18 J.Zhong <jiahang.zhong@cern.ch>
+	* Add EWS correction function from Sebastian
+	* tag ttResoSingleLepton-00-00-39
+
+2014-04-17 S.Calvet <scalvet@cern.ch>
+	* Change the default of the chi2 to DATA2012SUMMER2013
+	* tag ttResoSingleLepton-00-00-38
+
+2014-04-11 S.Calvet <scalvet@cern.ch>
+	* Re-initialize the index after the first step of findMinChiSquare_LMelseHM and findMinChiSquare_HMelseLM
+	* tag ttResoSingleLepton-00-00-37
+
+2014-04-03 S.Calvet <scalvet@cern.ch>
+	* Add functions findMinChiSquare_HMelseLM and findMinChiSquare_LMelseHM for chi2
+	* tag ttResoSingleLepton-00-00-36
+
+2014-04-02 S.Calvet <scalvet@cern.ch>
+	* Add function for Egeinvector uncert in BtaggingCorrection
+
+2014-03-19 S.Calvet <scalvet@cern.ch>
+	* Fix calculation of the uncertainties in BtaggingCorrection.cxx. (Many thanks to Johannes Erdmann)
+	* tag ttResoSingleLepton-00-00-35
+
+2014-03-13 T.Heck <theck@cern.ch>
+	* Add share directory for shared input files
+	* Add HFsys_SFs_2014_03_11.root first version of SFs for HFsys resolved tool
+	* Add HFsys_WjetYields_2014_03_11.txt first version of Wjet pretag yields for HFsys resolved tool
+	* Update to HFsys.cxx and HFsys.h
+	* Implemented new user-simplified HFsys resolved interface
+	* tag ttResoSingleLepton-00-00-34
+
+2014-02-06 S.Calvet <scalvet@cern.ch>
+	* Add BtaggingCorrection.cxx
+	* Preliminary correction for btagging
+	* tag ttResoSingleLepton-00-00-33
+
+2013-12-17 S.Calvet <scalvet@cern.ch>
+	* Add BtaggingCorrection.h
+
+2013-11-14 J.Zhong <jiahang.zhong@cern.ch>
+	* Update to TTbarTriggerEmulation:
+	* (Optionally) store trigger decision for each trig_jet object
+	* tag ttResoSingleLepton-00-00-32
+
+2013-11-05 C.Pollard <cpollard@cern.ch>
+	* Update to TTBarElectronJetOverlap:
+	* Jets with no associated tracks after electron subtraction now
+	  have a JVF of -1.
+	* tag ttResoSingleLepton-00-00-31
+
+2013-10-25 C.Pollard <cpollard@cern.ch>
+	* Updates to TTBarElectronJetOverlap:
+	* Implemented new electron-track matching as suggested by tracking experts
+	* LoadElectrons() and LoadTracks() take new (less confusing) arguments.
+	* tag ttResoSingleLepton-00-00-30
+
+2013-10-23 S.Calvet <scalvet@cern.ch>
+	* tag ttResoSingleLepton-00-00-29
+	
+2013-10-23 L.Valery <lvalery@cern.ch>
+	* TTBarLeptonJetsBuilder_chi2 can return category for 
+	  btag splitting (getCategory)
+
+2013-10-23 C.Pollard <cpollard@cern.ch>
+	* Rename ttElectronJetOverlap to TTBarElectronJetOverlap
+	* Change el-jet track association to use el_Unrefittedtrack_*
+	* Update ttElectronJetOverlap to use dR(el, jet) matching
+
+2013-10-22 J.Ferrando <james.ferrando@glasgow.ac.uk>
+	* Add python directory
+	* Add code for Z'_{TC2} cross sections and BR 
+
+2013-10-21 S.Calvet <scalvet@cern.ch>
+ 	* Add ttElectronJetOverlap by Chris Pollard
+	* tag ttResoSingleLepton-00-00-28
+
+2013-10-12 L.Valery <lvalery@cern.ch>
+	* Allowing by default the reconstruction in case there are
+	  no b-jet in the event
+	* tag ttResoSingleLepton-00-00-27
+
+2013-10-10 S.Calvet <scalvet@cern.ch>
+	* Change the default of the chi2 to DATA2012SUMMER2013PT100
+	* tag ttResoSingleLepton-00-00-26
+
+2013-10-03 S.Calvet <scalvet@cern.ch>
+	* Add TTbarTriggerEmulation by Nicolas and Danilo
+	* tag ttResoSingleLepton-00-00-25
+
+2013-08-20 L.Valery <lvalery@cern.ch>
+	* Refining parameters DATA2012SUMMER2013 (thiner binning)
+	* New set of parameters DATA2012SUMMER2013PT100 using the pT cut of
+	  100 GeV on the leading jet (not the default)
+	* Changing some enums names
+	* Adding vectors for chi2 studies (not filled by default)
+	* tag ttResoSingleLepton-00-00-24
+
+2013-08-20 L.Valery <lvalery@cern.ch>
+	* New set of parameters DATA2012SUMMER2013 (LC jets, Jet Area Correction & Boosted Overlap Removal)
+	* Default parametrisation becomes DATA2012SUMMER2013
+	* Fix small bug in UsePtDiff function
+	* Enable the affectation of the b-jets in case of >= 2 b-jets events
+	* Creates new enums (PtDiff and Btag)
+	* tag ttResoSingleLepton-00-00-23
+
+2013-08-19 S.Calvet <scalvet@cern.ch>
+	* Add TTBarLeptonJetsBuilder_chi2::getResult_Tlv() and TTBarLeptonJetsBuilder_dRmin::GetMttdRmin() (Karl Nordstrom)
+	* tag ttResoSingleLepton-00-00-22
+	    
+2013-02-23 S.Calvet <scalvet@cern.ch>
+	* fix header
+	* tag ttResoSingleLepton-00-00-21
+	
+2013-02-22 J.Zhong <jiahang.zhong@cern.ch>
+	* Add boosted Wjets SFs
+	* tag ttResoSingleLepton-00-00-20
+
+2013-02-21 J.Zhong <jiahang.zhong@cern.ch>
+	* Update HFsys tool, for W+jets normalization. Now we are using option=1 fitting, which is actually CA method (Weina)
+	* tag ttResoSingleLepton-00-00-18
+
+2013-02-12 S.Calvet <scalvet@cern.ch>
+	* Add HFsys tool, for W+jets normalization (Weina)
+	* tag ttResoSingleLepton-00-00-17
+
+2013-02-01 S.Calvet <scalvet@cern.ch>
+	* Add a new seed for RunNumber in SeedTool (Venkat)
+	* tag ttResoSingleLepton-00-00-16
+
+2013-01-25 S.Calvet <scalvet@cern.ch>
+	* Add TTBarEWSReweighter.h, by James
+	* tag ttResoSingleLepton-00-00-15
+
+2013-01-25 S.Calvet <scalvet@cern.ch>
+	* fix bug in NeutrinoBuilder
+	* tag ttResoSingleLepton-00-00-14
+
+2013-01-07 S.Calvet <scalvet@cern.ch>
+	* Implement functions to recover mtt, mth, mtl, mwh in TBarLeptonJetsBuilder_chi2
+	* tag ttResoSingleLepton-00-00-13
+
+2012-12-27 T.Heck <theck@cern.ch>
+	* Implement SetHighMThreshold functions in TBarLeptonJetsBuilder_chi2 and _dRmin
+	* tag ttResoSingleLepton-00-00-11
+
+2012-12-18 T.Heck <theck@cern.ch>
+	* Option highJetMass in TTBarLeptonJetsBuilder_chi2 Init() function for dynamic high jet mass criteria
+	* Default options at Chi2Version = DATA2012AUTOMN2012, highJetMass = 60.0 GeV
+	* tag ttResoSingleLepton-00-00-10
+
+2012-12-10 S.Calvet <scalvet@cern.ch>
+	* Option units in NeutrinoBuilder (T. Heck)
+	* TTBarLeptonJetsBuilder_chi2 has to use the unit option of NeutrinoBuilder (T. Heck)
+	* tag ttResoSingleLepton-00-00-09
+	
+2012-11-27 S.Calvet <scalvet@cern.ch>
+	* Make TTBarLeptonJetsBuilder_dRmin::FindJetIndices_HM and  FindJetIndices_LM private
+	* tag ttResoSingleLepton-00-00-07
+	
+2012-11-23 S.Calvet <scalvet@cern.ch>
+	* Improvment of TTBarLeptonJetsBuilder_dRmin (T. Heck)
+	
+2012-11-21 S.Calvet <scalvet@cern.ch>
+	* Initial import of TTBarLeptonJetsBuilder_dRmin (T. Heck)
+	
+2012-11-15 S.Calvet <scalvet@cern.ch>
+	* Small bug fix in TTBarLeptonJetsBuilder_chi2
+	* tag ttResoSingleLepton-00-00-06
+
+2012-11-14 S.Calvet <scalvet@cern.ch>
+	* NeutrinoBuilder::candidatesFromWMass becomes  NeutrinoBuilder::candidatesFromWMass_Scaling
+	* tag ttResoSingleLepton-00-00-05
+
+2012-11-12 S.Calvet <scalvet@cern.ch>
+	* Cleaning of TTBarLeptonJetsBuilder_chi2
+	* Implement TTBarLeptonJetsBuilder_chi2::findMinChiSquare_AllRanges
+	* Fix bug in units (Thanks to Venkat)
+	* tag ttResoSingleLepton-00-00-04
+	
+2012-11-12 S.Calvet <scalvet@cern.ch>
+	* Make it compatible with RootCore (Thanks to Tobias Heck)
+	* tag ttResoSingleLepton-00-00-03
+
+2012-11-09 S.Calvet <scalvet@cern.ch>
+	* Add SeedTool
+	* tag ttResoSingleLepton-00-00-02
+
+2012-11-09 S.Calvet <scalvet@cern.ch>
+	* new values for chi2 (DATA2012AUTOMN2012), for LC jets
+	* tag ttResoSingleLepton-00-00-01
+
+2012-09-18 S.Calvet <scalvet@cern.ch>
+	* initial import of NeutrinoBuilder.h and TTBarLeptonJetsBuilder_chi2.h

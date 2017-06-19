@@ -1,0 +1,77 @@
+10
+
+dir
+144011
+svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir/dferreir/ttunf/trunk/packages/egammaEvent
+svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir
+
+
+
+2014-02-18T19:05:14.344576Z
+143722
+dferreir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4525493e-7705-40b1-a816-d608a930855b
+
+Root
+dir
+
+cmt
+dir
+
+doc
+dir
+
+src
+dir
+
+ChangeLog
+file
+
+
+
+
+2016-02-10T12:27:00.000000Z
+ba7d05ed15488002f5153cbae58df65b
+2014-02-18T19:05:14.344576Z
+143722
+dferreir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52970
+
+egammaEvent
+dir
+

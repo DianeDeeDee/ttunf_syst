@@ -1,0 +1,64 @@
+Instructions for histfitter are available here: 
+https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/HistFitterTutorial#HistFitter_usage
+
+more info: 
+https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/SusyFitter
+
+
+to setup histfitter:
+1)check out the histfitter package
+
+2)if you are using HistFitter-00-00-39, copy the files in  ./HistFitter-00-00-39 over the official histfitter equivalents (some new files as well)
+if you are using a later version, you can use HistFitterDiff39.txt to merge the changes
+
+3) compile as per instructions on the twiki
+
+changes include:
+-enableing of additional plots
+-ability to set scanning range by hand
+-attempt second scan even if the first one fails (with predetermined scan range)
+-add png to plots files (for viewing on my webpage) (guess this is optional)
+-more reasonable formating of correlation matrix after a fit
+
+
+python/paperMay22 are also my latest configuration files
+
+
+
+
+
+example commands: ( python/myConfig.py is your chosen configuration file from, for example, python/paperMay22/...
+
+1)run a Fit over backgrounds:
+HistFitter.py -F disc -w -f -d -c "sigSampleName='';btagSystematicsType='default';btag_bins=['btag_cat1','btag_cat2','btag_cat3'];doInclusive='False';excludeSyst='Nominal';excludeBackgrounds='_';channel='Combined';inputFile='MassSpectra_Paper2014_bjes_may27.root'" python/myConfig.py 
+
+2)run a Fit with a signal: 
+HistFitter.py -F disc -w -f -d -c "sigSampleName='Z1000';btagSystematicsType='default';btag_bins=['btag_cat1','btag_cat2','btag_cat3'];doInclusive='False';excludeSyst='Nominal';excludeBackgrounds='_';channel='Combined';inputFile='MassSpectra_Paper2014_bjes_may27.root'" python/myConfig.py 
+
+3) run a limit scan
+   # originally all input parameters had to be passed through several layers of batch submission scripts, but this got so tedious that I started using environment variables
+export ScanUpperLimit=1.5 
+export NumPoints=150
+
+  #this job will take several hours
+HistFitter.py -w -d -l -m ALL -c "sigSampleName='Z1000';btagSystematicsType='default';btag_bins=['btag_cat1','btag_cat2','btag_cat3'];doInclusive='False';excludeSyst='Nominal';excludeBackgrounds='_';channel='Combined';inputFile='MassSpectra_Paper2014_may22.root'" python/myConfig.py 
+
+  #maybe test with a stat only limit as it will be faster
+HistFitter.py -w -d -l -m ALL -c "sigSampleName='Z1000';btagSystematicsType='default';btag_bins=['btag_cat1','btag_cat2','btag_cat3'];doInclusive='False';excludeSyst='ALLSYST';excludeBackgrounds='_';channel='Combined';inputFile='MassSpectra_Paper2014_may22.root'" python/myConfig.py
+
+
+
+in ./batch, I have included many scripts which I use for submiting jobs, compiling the output, etc.
+
+-I run submit_limit.sh, which sets up all of the env variables, etc, then calls runLimit.cmd and runLimit.sh inside of the batch system.  
+
+- in configs/, i have two sets of files
+	-bash files, which are used by submit_limit to choose an appropriate combination of settings for different limit types
+	-.txt files, which contain a list of mass points followed by (usually) 2 or (rarely) 3 numbers.  its : 
+		scanUpperLimit  NumberOfScanPoints (default is 80 if set to -1)  
+		then optionally SignalScaleFactor, which is not used unless you also set doSignalScale=true in the 'myConfig.py' file
+		SignalScaleFactor will arbitrarily scale the signal, sometimes lessening instabilities (but haven't tested in a while)	
+		Then if you make the same adjustment to the limit, you should get back the same answer
+
+
+		

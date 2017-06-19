@@ -1,0 +1,85 @@
+2013-01-31 Thijs Cornelissen <thijs.cornelissen@cern.ch>
+	* Add data/mc12a/periodsAL/muon_trigger_sf_muid_2012_AtoL.p1328.root - input file for 2012 trigger scale factors, periods A-L
+	* TopMuonSFUtils-00-00-19
+
+2012-10-02 Thijs Cornelissen <thijs.cornelissen@cern.ch>
+	* Add data/mc12a/periodsAE/muon_trigger_sf_muid_2012_AtoE.root - input file for 2012 trigger scale factors, periods A-E
+	* TopMuonSFUtils-00-00-18
+
+2012-09-12 Thijs Cornelissen <thijs.cornelissen@cern.ch>
+	* Add data/mc12a/periodsAD/muon_trigger_sf_muid_2012_AtoD5.root - input file for 2012 trigger scale factors, periods A-D5
+	* TopMuonSFUtils-00-00-17
+
+2012-07-30 Mark Owen <markowen@cern.ch>
+	* Add utils/example_trig2012.C - example for 2012 trigger scale factors
+	* Add data/mc12a/periodsAB/muon_trigger_sf_muid_2012_AB.root - input file for 2012 trigger scale factors, periods A-B
+	* TopMuonSFUtils-00-00-16
+
+2012-02-23 W. H. Bell <W.Bell@cern.ch>
+	* Correcting destructor, removing delete and protecting TFile Close calls.
+	* Tagged as TopMuonSFUtils-00-00-15
+
+2012-01-20 M. Owen <markowen@cern.ch>
+	* Add HistPainter as library to preload (fixes warning about TPaletteAxis in compiled mode)
+	* Add test executable util/testTopMuonSF.cxx
+
+2012-01-19 M. Owen <markowen@cern.ch>
+	* Change LinkDef so it's dependencies are properly detected.
+	* Tag as TopMuonSFUtils-00-00-14
+
+2012-01-19 M. Owen <markowen@cern.ch>
+	* Fix memory leak in file access.
+	* Tag as TopMuonSFUtils-00-00-13
+
+2012-01-18 M. Owen <markowen@cern.ch>
+	* Add release 17 scale factors relative to mc11b
+	* Tag as TopMuonSFUtils-00-00-12
+	
+2011-12-21 M. Owen <markowen@cern.ch>
+	* First version with release 17 scale factors
+	* Tag as TopMuonSFUtils-00-00-11
+
+2011-10-17 M. Owen <markowen@cern.ch>
+	* Fix bug in n(bins) for j-k efficiencies (was filling the overflow bin with junk) - should not have affected any results
+	* Tag as TopMuonSFUtils-00-00-10
+
+2011-09-26 M. Owen <markowen@cern.ch>
+	* Make compatible with root v5.26
+	* Tag as TopMuonSFUtils-00-00-09
+
+2011-09-23 M. Owen <markowen@cern.ch>
+	* Add numbers for periods I & J-K
+	* Add enum for period dependency
+	* Tagging as TopMuonSFUtils-00-00-08
+
+2011-09-01 G. Salamanna <giuseppe.salamanna@cern.ch>
+	* MuonSF.cxx: some debugging
+	* Tagging as TopMuonSFUtils-00-00-07
+	
+2011-08-25 W. H. Bell <W.Bell@cern.ch>
+	* Changes needed for RootCore
+
+2011-08-25 G. Salamanna <giuseppe.salamanna@cern.ch>
+	* Turning muon SF tool into a proper class, splitting into
+	.h and .cpp; adding period dependence and weighted average
+	* Tagging as TopMuonSFUtils-00-00-06
+	
+2011-08-17 W. H. Bell <W.Bell@cern.ch>
+	* Adding missing cstdio header file.
+	* Tagging as TopMuonSFUtils-00-00-05
+
+2011-08-17 W. H. Bell <W.Bell@cern.ch>
+	* Switching math.h for cmath
+	* Tagging as TopMuonSFUtils-00-00-04
+
+2011-08-09 W. H. Bell <W.Bell@cern.ch>
+	* Minor changes to get the package to build with RootCore-00-00-04
+	* Tagging as TopMuonSFUtils-00-00-03
+
+2011-07-31 W. H. Bell <W.Bell@cern.ch>
+	* Tagging the package after conversion to RootCore build structure
+	* Tagging as TopMuonSFUtils-00-00-02
+
+2011-07-31 W. H. Bell <W.Bell@cern.ch>
+	* Tagging the package before conversion to RootCore build structure
+	* Tagging as TopMuonSFUtils-00-00-01

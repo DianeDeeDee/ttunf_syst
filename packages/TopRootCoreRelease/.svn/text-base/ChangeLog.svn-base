@@ -1,0 +1,958 @@
+2013-07-08 Simon <simon@cern.ch>
+	* Tagging as TopRootCoreRelease-14-00-12
+
+2013-07-8 Simon <simon@cern.ch>
+	* TopMiniNtuple-12-00-59: jvf fix
+	* TopD3PDBoosted-12-01-24: jvf fix
+	* RootCore-00-01-81: keep up-to-date
+	* TopD3PDAnalysis-12-00-54: ntup_common truth jet name fix
+	* TopAnalysisBase-12-00-13: ntup_common truth jet name fix
+	* TopD3PDSelection-12-00-60: Initialise all variables in Electron, Muon, Jet, MET
+
+2013-07-02 Jahred <jahreda@cern.ch>
+	* TopD3PDCorrections-12-00-80: Fix bad multilepton SF systematics
+	* TopMiniNtuple-12-00-58: Use new correct multilepton SF systematic
+	* Tagging as TopRootCoreRelease-14-00-11
+	
+2013-07-04 Simon <simon@cern.ch>
+	* Tagging as TopRootCoreRelease-14-00-10
+
+2013-07-04 Simon <simon@cern.ch>
+	* FakesMacros-00-00-34: Bug fix
+
+2013-07-03 Simon <simon@cern.ch>
+	* FakesMacros-00-00-33: Latest fakes estimates
+
+2013-07-02 Simon <simon@cern.ch>
+	* TopD3PDCorrections-12-00-79: Muon SF uncert update
+
+2013-07-02 Simon <simon@cern.ch>
+	* TopD3PDCorrections-12-00-78: Updated naming scheme for systematic shifts
+	* TopD3PDSelection-12-00-59: Lifted iso requirements from loose ele definition
+	* TopMiniNtuple-12-00-57: Remove ugly Eiso hack now we have egammaAnalysisUtils-00-04-40
+	* TopD3PDBoosted-12-01-23: Updates with sl6 fix
+
+2013-07-02 Jahred <jahreda@cern.ch>
+	* egammaAnalysisUtils-00-04-40: cutflow crash fix
+	* TopDataPreparation-00-05-09
+
+2013-07-02 Simon <simon@cern.ch>
+	* TopD3PDBoosted-12-01-22: Fix sl6 compilation
+
+2013-06-27 S Stamm <soren.stamm@cern.ch>
+	* MV1Tagger-00-00-02
+	* TopD3PDAnalysis-12-00-53
+	* TopD3PDCorrections-12-00-77
+	* TopD3PDSelection-12-00-58
+	* TopMiniNtuple-12-00-56
+	* TopD3PDBoosted-12-01-21
+
+2013-06-27 J. Adelman <jahreda@cern.ch>
+	* JetUncertainties-00-08-07
+	* TopDataPreparation-00-05-03
+	
+2013-06-26 J. Adelman <jahreda@cern.ch>
+	* TauCorrUncert-00-00-08: Update
+	
+2013-06-21 Simon Head <simon@cern.ch>
+	* TauCorrUncert-00-00-07: Compilation fix
+
+2013-06-21 Simon Head <simon@cern.ch>
+	* TopMiniNtuple-12-00-54: Fix crash in EisoTool2012
+
+2013-06-21 Simon Head <simon@cern.ch>
+	* TauCorrUncert-00-00-06: 3-prong eveto and compilation fix
+
+2013-05-28 J. Adelman <jahreda@cern.ch>
+	* TopD3PDCorrections-12-00-76
+	* egammaAnalysisUtils-00-04-36
+	
+2013-06-14 Simon Head <simon@cern.ch>
+	* RootCore-00-01-80
+
+2013-05-28 J. Adelman <jahreda@cern.ch>
+	* TopD3PDCorrections-12-00-75
+	* TopD3PDAnalysis-12-00-51
+	* TopD3PDSelection-12-00-56
+	* TauCorrUncert-00-00-04
+	
+2013-06-14 Simon Head <simon@cern.ch>
+	* Debug mode was not being set for which period (pileup rnd run number)
+	* TopD3PDSelection-12-00-55
+	* TopMiniNtuple-12-00-54
+
+2013-06-13 Simon Head <simon@cern.ch>
+	* Updates from Kerim to allow NTUP_TOP and NTUP_COMMON
+	* TopD3PDAnalysis-12-00-50
+	* TopAnalysisBase-12-00-12
+
+2013-06-10 Simon Head <Simon@cern.ch>
+	* ElectronEfficiencyCorrection-00-00-17: Fix memory leak - no physics
+	changes for 2012
+
+2013-06-07 G. Salamanna <salaman@cern.ch>
+	* packages.txt: update tag of TopD3PDCorrections to TopD3PDCorrections-12-00-74
+	
+2013-06-04 Simon Head <simon@cern.ch>
+	* RootCore-00-01-78: CERN_USER shouldn't need setting on lxplus now
+
+2013-06-03 Simon Head <simon@cern.ch>
+	* TopD3PDCorrections-12-00-73: fix clang compilation
+
+2013-05-30 S. Stamm <soren.stamm@cern.ch>
+	* TopD3PDAnalysis-12-00-49
+	* TopAnalysisBase-12-00-11
+	
+2013-05-28 J. Adelman <jahreda@cern.ch>
+	* TopD3PDSelection-12-00-54
+	* TopMiniNtuple-12-00-53
+	
+2013-05-24 M. Owen <markowen@cern.ch>
+	* egammaEvent-03-06-41
+	* ElectronPhotonSelectorTools-00-00-37
+	* PATCore-00-00-10
+	* TopD3PDAnalysis-12-00-47
+
+2013-05-23 J. Adelman <jahreda@cern.ch>
+	* TopMiniNtuple-12-00-51
+
+2013-05-22 J. Adelman <jahreda@cern.ch>
+        * Update to TopGoodRunsList-00-00-17
+	* BACKED OUT TopD3PDAnalysis-12-00-46 (to put back in trunk) later
+	* Tag as TopRootCoreRelease-14-00-08
+	
+2013-05-21 Simon Head <simon@cern.ch>
+	* Remove need for newline in input file list
+	* TopAnalysisBase-12-00-10
+
+2013-05-21 J. Adelman <jahreda@cern.ch>
+        * TopD3PDCorrections-12-00-70
+	* TopMiniNtuple-12-00-50
+
+2013-05-17 Simon Head <simon@cern.ch>
+	* Add ljet mini ntuple noSyst, rndm seeding
+	* Fix some compiler warnings
+	* TopMiniNtuple-12-00-49
+	* TopD3PDTruthTools-00-00-04
+	* TopD3PDAnalysis-12-00-45
+	* TopD3PDSelection-12-00-49
+	* TopD3PDCorrections-12-00-69
+	* TopJetUtils-00-00-14
+
+2013-05-16 J. Adelman <jahreda@cern.ch>
+        * Update to TopD3PDCorrections-12-00-68
+
+2013-05-10 J. Adelman <jahreda@cern.ch>
+	* Update to ElectronEfficiencyCorrection-00-00-15
+
+2013-05-08 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDCorrections-12-00-67
+
+2013-04-26 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDCorrections-12-00-65
+	* Update to TopD3PDSelection-12-00-48
+	* Tag as TopRootCoreRelease-14-00-07
+	
+2013-04-25 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDCorrections-12-00-64
+	* Update to TopD3PDBoosted-12-01-16
+	* Update to TopMiniNtuple-12-00-48
+	* Update to TopD3PDSelection-12-00-46
+	* Update to RootCore-00-01-58
+        * Tag as TopRootCoreRelease-14-00-06
+	
+2013-04-23 J. Adelman <jahreda@cern.ch>
+	* Update to TopMiniNtuple-12-00-46
+	* Update to TopD3PDCorrections-12-00-62
+        * Tag as TopRootCoreRelease-14-00-05
+	
+2013-04-10 M. Owen <markowen@cern.ch>
+	* Update to TopD3PDTruthTools-00-00-03
+
+2013-04-09 J. Adelman <jahreda@cern.ch>
+	* Update to TopMiniNtuple-12-00-44
+	* Update to TopD3PDCorrections-12-00-61
+	* Update to TopD3PDBoosted-12-01-15
+	* Update to TopD3PDTruthTools-00-00-02 (first tag)
+	* Update to TileTripReader-00-00-07
+	* Tag as TopRootCoreRelease-14-00-04 
+
+2013-04-05 H. Khandanyan <khandan@cern.ch>
+	* Update to TopDileptonSFUtils-12-00-10
+	* Tag as TopRootCoreRelease-14-00-03
+
+2013-04-05 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDAnalysis-12-00-44
+	* Update to TopD3PDBoosted-12-01-13 
+	
+2013-04-04 M. Owen <markowen@cern.ch>
+	* Update to TopD3PDCorrections-12-00-57
+	* Tagging as TopRootCoreRelease-14-00-01
+
+2013-04-03 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDCorrections-12-00-56 
+	* Tagging as TopRootCoreRelease-14-00-00
+
+2013-03-28 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDCorrections-12-00-55 
+	* Update to MissingETUtility-01-01-03
+	* Update to JetResolution-02-00-02 
+	
+2013-03-28 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDSelection-12-00-44
+	* Update to TopD3PDAnalysis-12-00-43
+	* Update to TopMiniNtuple-12-00-43
+	
+2013-03-27 J. Adelman <jahreda@cern.ch>
+	* Update to TileTripReader-00-00-06
+	* Update to TopD3PDSelection-12-00-43
+
+2013-03-26 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDBoosted-12-01-12
+	* Update to TopD3PDAnalysis-12-00-42
+	* Update to TopD3PDSelection-12-00-42
+	* Update to TopD3PDCorrections-12-00-53
+	* Update to TopAnalysisBase-12-00-09
+	* Update to TileTripReader-00-00-04	
+	* Update to TopGoodRunsList-00-00-16
+        * Update to ElectronEfficiencyCorrection-00-00-13
+        * Update to egammaAnalysisUtils-00-04-26
+        * Update to egammaEvent-03-06-40
+	
+2013-03-25 J. Adelman <jahreda@cern.ch>
+	* Update to TopMiniNtuple-12-00-42
+	* Update to MuonEfficiencyCorrections-02-01-12
+	* Update to MuonMomentumCorrections-00-08-07
+	* Update to JVFUncertaintyTool-00-00-03 
+	* Update to TopD3PDCorrections-12-00-51
+	* Update to TopD3PDSelection-12-00-40
+	* Update to TopD3PDAnalysis-12-00-40
+	* Update to TopD3PDBoosted-12-01-11
+	* Update to TopMiniNtuple-12-00-42
+
+2013-03-22 J. Adelman <jahreda@cern.ch>
+	* Update to ApplyJetCalibration-00-03-03
+	* Update to TopAnalysisBase-12-00-07
+	* Update to TopD3PDAnalysis-12-00-39
+	* Update to TopD3PDBoosted-12-01-10
+	* Update to TopD3PDCorrections-12-00-49
+	* Update to TopD3PDSelection-12-00-38
+	* Update to JetUncertainties-00-08-05
+	* Update to TopMiniNtuple-12-00-40
+	
+2013-03-21 M. Owen <Markowen@cern.ch>
+	* Update to TopD3PDAnalysis-12-00-37
+	* Update to TopD3PDCorrections-12-00-46
+	* Update to TopD3PDSelection-12-00-36
+	* Update to TopMiniNtuple-12-00-37
+	* Update to TopD3PDBoosted-12-01-08
+	* Remove obsolete FudgeMCTool-00-00-12 & PhotonIDTool-00-01-01
+
+2013-03-11 M. Owen <markowen@cern.ch>
+	* Update to TopD3PDCorrections-12-00-44
+	* Update to TopD3PDSelection-12-00-33
+	* Update to CalibrationDataInterface-00-02-01
+	* Tagging as TopRootCoreRelease-12-01-17
+
+2013-02-28 M. Owen <markowen@cern.ch>
+	* Update to TopD3PDCorrections-12-00-43
+	* Update to TopGoodRunsList-00-00-15
+	* Update to TopMiniNtuple-12-00-36
+	* Tagging as TopRootCoreRelease-12-01-16
+
+2013-02-26 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDAnalysis-12-00-35
+	* Update to TopD3PDSelection-12-00-32
+
+2013-02-26 G. Salamanna <salaman@cern.ch>
+	* Update to TopD3PDCorrections-12-00-42
+
+2013-02-20 J. Adelman <jahreda@cern.ch>
+	* Update to TopDataPreparation-00-04-06
+	* Update to JetEffiProvider-00-00-05
+	
+2013-02-14 J. Adelman <jahreda@cern.ch>
+	* Update to TopDataPreparation-00-04-04
+	* Update to JetEffiProvider-00-00-05
+	
+2013-02-14 J. Adelman <jahreda@cern.ch>
+        * Update to TopMiniNtuple-12-00-35
+        * Tagging as TopRootCoreRelease-12-01-15
+	
+2013-02-08 M. Owen <markowen@cern.ch>
+	* Update to TopD3PDCorrections-12-00-41
+
+2013-02-01 J. Adelman <jahreda@cern.ch>
+        * Update to JetResolution-02-00-00
+        * Update to ApplyJetResolutionSmearing-00-01-00
+        * Update to TopD3PDCorrections-12-00-40
+        * Update to TrigMuonEfficiency-00-02-30
+        * Update to ElectronEfficiencyCorrection-00-00-09
+        * Update to PATCore-00-00-07
+        * Update to TopMuonSFUtils-00-00-19
+	* Tagging as TopRootCoreRelease-12-01-14
+
+2013-01-31 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDAnalysis-12-00-34
+
+2013-01-31 M. Owen <markowen@cern.ch>
+	* Update to TopGoodRunsList-00-00-14
+	* Tagging as TopRootCoreRelease-12-01-12
+
+2013-01-26 J. Adelman <jahreda@cern.ch>
+	* Update to TopJetUtils-00-00-13
+	* Update to TopMiniNtuple-12-00-34
+ 
+2013-01-26 J. Adelman <jahreda@cern.ch>
+	* Update to TopDataPreparation-00-04-01
+	
+2013-01-23 J. Adelman <jahreda@cern.ch>
+	* Update to GoodRunsLists-00-01-03
+	* Update to ApplyJetCalibration-00-03-00
+	
+2013-01-19 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDCorrections-12-00-38 
+	* Update to TopDataPreparation-00-04-00
+	* Update to TopD3PDAnalysis-12-00-33
+	* Update to TopMiniNtuple-12-00-33
+	* Tagging as TopRootCoreRelease-12-01-10
+	
+2013-01-19 J. Adelman <jahreda@cern.ch>
+	* Update to TopJetUtils-00-00-11
+	* Update to TopMiniNtuple-12-00-32
+	* Update to TopD3PDCorrections-12-00-36
+	* Updade to TopD3PDAnalysis-12-00-32
+	* Tagging as TopRootCoreRelease-12-01-08
+	
+2013-01-17 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDCorrections-12-00-35
+	
+2013-01-16 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDSelection-12-00-30
+	* Update to TopD3PDBoosted-12-01-05
+
+2013-01-11 J. Adelman <jahreda@cern.ch>
+	* Update to TopGoodRunsList-00-00-13
+	* Tagging as TopRootCoreRelease-12-01-07
+	
+2013-01-10 J. Adelman <jahreda@cern.ch>
+	* Update to TopDileptonSFUtils-12-00-09
+	* Update to TopD3PDCorrections-12-00-34      
+	* Update to RootCore-00-01-39	
+	* Dupate to TopMiniNtuple-12-00-30
+	
+2013-01-09 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDAnalysis-12-00-30
+	* Update to egammaAnalysisUtils-00-04-01
+
+2013-01-08 M. Owen <markowen@cern.ch>
+	* Remove obsolete MV1Tagger package
+	* Update to TopD3PDAnalysis-12-00-29
+
+2012-12-24 M. Owen <markowen@cern.ch>
+	* Update to TopD3PDAnalysis-12-00-28
+	* Update to TopD3PDSelection-12-00-29
+
+2012-12-23 J. Adelman <jahreda@cern.ch>
+	* Update to TopMiniNtuple-12-00-28
+	
+2012-12-20 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDCorrections-12-00-33
+	* Update to TopElectronSFUtils-00-00-29
+	* Update to egammaAnalysisUtils-00-03-99
+	* Update to TopMiniNtuple-12-00-27
+	* Tagging as TopRootCoreRelease-12-01-06
+	
+2012-12-18 J. Adelman <jahreda@cern.ch>
+	* Update to TopD3PDSelection-12-00-28
+
+2012-12-12 M. Owen <markowen@cern.ch>
+	* Updating to TopMiniNtuple-12-00-26
+	* Tagging as TopRootCoreRelease-12-01-05
+
+2012-12-10 M. Owen <markowen@cern.ch>
+	* Updating to TopD3PDCorrections-12-00-32
+
+2012-12-05 J. Adelman <jahreda@cern.ch>
+	* Updating to TopD3PDAnalysis-12-00-27
+	* Updating to TopD3PDSelection-12-00-27
+	* Updating to TopD3PDCorrections-12-00-31
+
+2012-12-05 M. Owen <markowen@cern.ch>
+	* Updated to TopD3PDAnalysis-12-00-26
+	* Updated to TopD3PDSelection-12-00-26
+
+2012-12-02 J. Adelman <jahreda@cern.ch>
+	* Updated to MuonEfficiencyCorrections-02-01-07
+        * Tagging as TopRootCoreRelease-12-01-04
+
+2012-11-30 M. Owen <markowen@cern.ch>
+	* Updated to TopMiniNtuple-12-00-25
+	
+2012-11-29 M. Owen <markowen@cern.ch>
+	* Updated to TopMiniNtuple-12-00-24
+
+2012-11-28 M. Owen <markowen@cern.ch>
+	* Updated to TopD3PDAnalysis-12-00-25
+	* Updated to TopD3PDSelection-12-00-25
+	* Updated to TopMiniNtuple-12-00-23
+
+2012-11-28 J. Adelman <jahreda@cern.ch>
+	* Updated to TopDataPreparation-00-03-02
+        * Updated to TopD3PDCorrections-12-00-29
+
+
+2012-11-23 J. Adelman <jahreda@cern.ch>
+        * Updated to TopD3PDAnalysis-12-00-24
+	* Updated to TopD3PDCorrections-12-00-28
+	* Updated to TopD3PDSelection-12-00-24
+	* Updated to TopMiniNtuple-12-00-21
+
+2012-11-22 J. Adelman <jahreda@cern.ch>
+        * Updated to TopD3PDAnalysis-12-00-23
+
+2012-11-22 J. Adelman <jahreda@cern.ch>
+        * Updated to TopD3PDCorrections-12-00-27
+        * Updated to TopAnalysisBase-12-00-06
+        * Updated to TopD3PDSelection-12-00-23
+        * Updated to TopD3PDBoosted-12-00-08
+        * Updated to TopMiniNtuple-12-00-20
+        * Updated to SemileptonicCorr-00-00-07 
+	
+2012-11-21 M. Owen <markowen@cern.ch>
+	* Updated to TopDileptonSFUtils-12-00-08
+	* Updated to TrigMuonEfficiency-00-02-17
+	* Tag as TopRootCoreRelease-12-01-03
+
+2012-11-20 M. Owen <markowen@cern.ch>
+	* Updated to TopD3PDCorrections-12-00-26
+	* Updated to TopDileptonSFUtils-12-00-07
+	* Updated to TopMiniNtuple-12-00-19
+	* Add TopD3PDBoosted-12-00-07
+	* Tag as TopRootCoreRelease-12-01-02
+	
+2012-11-19 G. Salamanna <salaman@cern.ch>
+	* Add SL correction package to list in  packages.txt
+	* Tag as TopRootCoreRelease-12-01-01
+	
+2012-11-15 M. Owen <markowen@cern.ch>
+	* Add TopD3PDAnaDoc-00-00-01
+	* Tag as TopRootCoreRelease-12-01-00
+
+2012-11-13 V. Dao <valerio.dao@cern.ch>	
+	* update TopD3PD* tags
+	* update to TopGoodRunsList-00-00-12
+	
+2012-11-7 J. Adelman <jahreda@cern.ch>
+	* Updated to TopDileptonSFUtils-12-00-06
+
+2012-11-6 J. Adelman <jahreda@cern.ch>
+	* Updated to TopMiniNtuple-12-00-13
+
+2012-11-5 J. Adelman <jahreda@cern.ch>
+	* Updated to TopElectronSFUtils-00-00-26
+	* Updated to TopD3PDCorrections-12-00-21
+	* Updated to TopDileptonSFUtils-12-00-05
+	* Updated to TopD3PDSelection-12-00-18 
+
+2012-11-1 J. Adelman <jahreda@cern.ch>
+	* Updated to TopD3PDSelection-12-00-17
+
+2012-11-1 J. Adelman <jahreda@cern.ch>
+	* Updated to TopD3PDAnalysis-12-00-19
+
+2012-10-31 J. Adelman <jahreda@cern.ch>
+	* Updated to TopD3PDAnalysis-12-00-18
+	* Updated to TopD3PDCorrections-12-00-19
+	* Updated to TopD3PDSelection-12-00-16
+
+2012-10-22 M. Owen <markowen@cern.ch>
+	* Updated to TopD3PDCorrections-12-00-17
+	* Updated TopD3PDAnalysis-12-00-17
+
+2012-10-12 V. Dao <valerio.dao@cern.ch>
+	* Updated to TopDataPreparation-00-00-27
+	* Updated to TopanalysisBase-12-00-04
+	* Updated to TopD3PDAnalysis-12-00-15
+	* Updated to TopD3DSelestion-12-00-14
+	* Updated to TopD3PDCorrections-12-00-16
+	* Updated to TopMiniNtuples-12-00-12
+	
+2012-10-11 V. Dao <valerio.dao@cern.ch>
+	* Updated TopGoodRunsList-00-00-10 
+	* Tag as TopRootCoreRelease-12-00-06
+
+2012-10-11 M. Owen <markowen@cern.ch>
+	* Updated TopGoodRunsList-00-00-09, TopD3PDAnalysis-12-00-13, TopD3PDSelection-12-00-13, TopMiniNtuple-12-00-11.
+	* Tag as TopRootCoreRelease-12-00-04
+
+2012-10-10 V. Dao (valerio.dao@cern.ch)
+	* Updated TopMiniNtuple-12-00-10 & TopD3PDAnalysis-12-00-11
+
+2012-10-09 M. Owen <markowen@cern.ch>
+	* Update TopD3PDAnalysis-12-00-11, TopD3PDCorrections-12-00-15, MuonMomentumCorrections-00-07-00
+
+2012-10-07 M. Owen <markowen@cern.ch>
+	* Update TopMuonSFUtils-00-00-18 & MuonEfficiencyCorrections-02-01-03
+
+2012-10-04-28 J. Adelman (jahreda@gmail.com)
+	* Updated for new JetUncertainty
+	
+2012-10-03 M. Owen <markowen@cern.ch>
+	* Update TopD3PDAnalysis-12-00-10
+
+2012-10-02 V. Dao (valerio.dao@cern.ch)
+	* Updated TopMiniNtuple to 12-00-08
+	
+2012-09-28 J. Adelman (jahreda@gmail.com)
+	* Updated TopDataPreparation to 00-21
+
+2012-09-27 M. Owen (markowen@cern.ch)
+	* Tag as TopRootCoreRelease-12-00-03
+	
+2012-09-26  V. Dao (valerio.dao@cern.ch)
+	* Update to MissingEtUtility-01-01-01
+	* Update TopD3PD* classes 
+
+2012-09-17  J. Adelman (jahreda@gmail.com)
+	* Update to TopDileptonSFUtils-12-00-03
+	* Update to TopTopD3PDCorrections-12-00-10
+	
+2012-09-17  J. Adelman (jahreda@gmail.com)
+	* Update for new muon SF utils
+	
+2012-09-10  V. Dao <Valerio.Dao@cern.ch>
+	* Updating all the TopD3PD* packages (see their Changelogs
+	* updating to TopMuonSFUtils-00-00-17
+	* updating to TopGoodRunsList-00-00-08
+
+2012-09-10  V. Dao <Valerio.Dao@cern.ch>
+	* Updating all the TopD3PD* packages (12-00-03 --> 12-00-04)
+	* updating to TopD3PDAnalysis-12-00-05
+
+2012-09-07  V. Dao <Valerio.Dao@cern.ch>
+	* Updating all the TopD3PD* package for the switch to LC jets
+	* Updating the METUtility tag to the one used in 2011 branch
+	* pick up the last version of ApplyJetCalibration-00-02-06
+	* update the latest tags of TopDataPreparation and TopGoodRunsList
+	* removing TopMETTool since not compatible with the latest METUtility version
+
+2012-09-05  V. Dao <Valerio.Dao@cern.ch>	
+	* Some previous changes have not been registered [tyring to summarize here]
+	* first version when the TopD3PD* packages are compatible again with the 2012 prescription 
+	* no need to use anymore the packages-trc.txt
+	
+2012-08-06 I J Watson <ian.watson@cern.ch>
+	* Moving TRC valid packages to packages-trc.txt
+	* Remove TRC packages from packages.txt
+	* add todo.org with info on what (afaik) needs to be updated
+	* Update to latest packages in package.txt
+	* tagging as TopRootCoreRelease-12-00-01
+	* update TopElectronSFUtils-00-00-22
+	* tagging as TopRootCoreRelease-12-00-02
+
+2012-07-30 I J Watson <ian.watson@cern.ch>
+	* Correct MultiJesInputFiles location
+	* Update egamma to new iso tools
+
+2012-07-18 I J Watson <ian.watson@cern.ch>
+	* Update TopD3PD* packages to current 2012 changes
+	* Tagging as TopRootCoreRelease-12-00-00
+
+2012-07-17 I J Watson <ian.watson@cern.ch>
+	* Pileup reweighting for 2012 (inc. EPR tool)
+	* Jet calib for 2012
+	* muon eff. momentum and trig sf updates for 2012
+	* electron update for new tight++
+
+**** 2012/2011 CHANGEOVER HERE (above 2012, below 2011)
+
+2012-06-28 I J Watson <ian.watson@cern.ch>
+	* Change JetTagAlgorithms to MV1Tagger
+	* Change dep. for above in TopD3PDAnalysis
+	* Updates from Hovhannes for MultiLepton (TDS,TAB,TMN)
+	* tagging as TopRootCoreRelease-00-01-14
+	* update TopJetUtils for new JVF
+	* TopD3PDSelection muon-jet variable update
+	* tagging as TopRootCoreRelease-00-01-15
+
+2012-06-27 I J Watson <ian.watson@cern.ch>
+	* Update TRC for new MET interface
+	* Update TRC for multilepton code from Stockholm
+
+2012-06-06 I J Watson <ian.watson@cern.ch>
+	* Move CombPerf packages to new atlasperf svn
+	* TopD3PD* updates for z0 and JES Up/Down running
+	* Tagging as TopRootCoreRelease-00-01-13
+	* Update dilepton scale factors (R. Lysak)
+
+2012-05-30 I J Watson <ian.watson@cern.ch>
+	* Bug fixes in TDC and TMNT
+	* Include JES components in TDC
+
+2012-05-25 I J Watson <ian.watson@cern.ch>
+	* FakesMacros-00-00-29 with AntiElectron method
+	* Updates to TopD3PD* to allow the z0 lepton cut from the minituple
+
+2012-05-24 I J Watson <ian.watson@cern.ch>
+	* WjetsCorrections-00-00-06 for final scales for ICHEP.
+	* Upate photon tags from Sergio
+	* Tagging as TopRootCoreRelease-00-01-12
+
+2012-05-21 I J Watson <ian.watson@cern.ch>
+	* New WjetsCorrections-00-00-05 for new scales
+	* New FakesMacros-00-00-28
+	* Update TopD3PDCorrections-00-00-47 for Wjets and fakes
+	* Tagging as TopRootCoreRelease-00-01-10
+	* Fix QCD MM directory in TopD3PDCorrections-00-00-48
+	* Tagging as TopRootCoreRelease-00-01-11
+
+2012-05-15 I J Watson <ian.watson@cern.ch>
+	* Pick up Sergio's photon updates
+	* Fix mu-jet overlap
+	* Fix TopD3PDAnalysis/Selection dependency
+
+2012-05-10 I J Watson <ian.watson@cern.ch>
+	* Update TopD3PDAnalysis and TopD3PDCorrections to work with the new tags
+
+2012-05-10 I J Watson <ian.watson@cern.ch>
+	* Update FakesMacros-00-00-25
+	* Update JetUncertainties-00-05-07
+
+2012-05-06 I J Watson <ian.watson@cern.ch>
+	* JetEffiProvider-00-00-04 to setup the random seeds
+
+
+2012-05-06 W. H. Bell <W.Bell@cern.ch>
+	* TopD3PDCorrections-00-00-44 - Adding the TopAnalysisBase dependency to the Makefile.RootCore
+	* Tagging as TopRootCoreRelease-00-01-09
+
+2012-05-04 W. H. Bell <W.Bell@cern.ch>
+	* TopAnalysisBase-00-00-08 - includes the RndmSeedSvc
+	* TopD3PDAnalysis-00-00-68 - includes the configuration of the RndmSeedSvc
+	* TopD3PDCorrections-00-00-43 - includes the usage of the RndmSeedSvc
+	* TopD3PDSelection-00-02-41 - slight change to WhichPeriod* to allow re-seeding.
+	* TopMiniNtuple-00-01-24 - photon branch description fixes for D3PD2MiniTTG and D3PD2MiniSLG.
+	* Tagging as TopRootCoreRelease-00-01-08
+
+2012-05-01 I J Watson <ian.watson@cern.ch>
+	* Update MissingETUtility and TopMetTool
+	* Update TopD3PDCorrections for new METU interface
+	* Update of TopDileptonSFUtils (but doesn't affect TopD3PDCorrections)
+	* Tagging as TopRootCoreRelease-00-01-06
+	* Remove CutFlowCorr TopD3PDAnalysis
+	* Tagging as TopRootCoreRelease-00-01-07
+
+2012-04-29 I J Watson <ian.watson@cern.ch>
+	* Update MissingETUtility
+	* Tagging as TopRootCoreRelease-00-01-05
+
+2012-04-28 I J Watson <ian.watson@cern.ch>
+	* Changes from Alison yesterday due to atlasgrp svn failure and new tags for new TRC packages
+	* Update TopMetTool
+	* Tagging as TopRootCoreRelease-00-01-04
+
+2012-04-26 I J Watson <ian.watson@cern.ch>
+	* Update TopD3PDCorrections for the new jets
+	* Tagging as TopRootCoreRelease-00-01-00
+
+2012-04-26 W. H. Bell <W.Bell@cern.ch>
+	* Adding the TopAnalysisBase-00-00-02 tag, which includes code from TopD3PDAnalysis. 
+	* TopD3PDAnalysis-00-00-62, removing code which is now in TopAnalysisBase.
+	* TopMiniNtuple-00-01-22, using TopAnalysisBase
+
+2012-04-24 I J Watson <ian.watson@cern.ch>
+	* Electron updates from Hongbo
+
+2012-04-20 I J Watson <ian.watson@cern.ch>
+	* TopD3PDCorrections-00-00-36 which needs:
+	* Update JetUncertainties-00-05-03
+
+2012-04-20 W. H. Bell <W.Bell@cern.ch>
+	* TopJetUtils-00-00-04 JVF scale factor uncertainties
+
+2012-04-19 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* Updating to recommended package versions
+	ApplyJetCalibration-00-01-02, ApplyJetResolutionSmearing-00-00-03.
+
+2012-04-18 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* TopD3PDSelection-00-02-38 additional features for
+	PhotonSelection, and update to CutCount.h
+
+2012-04-17 I.J. Watson <ian.watson@cern.ch>
+	* Upgrade for the JVF SFs in the TopD3PD framework
+	* Other minor changes to some TopD3PD packages (see changelogs)
+	* Update to TopJetUtils-00-00-03
+	* Update to TopElectronSFUtils-00-00-13
+	* Tagging as TopRootCoreRelease-00-00-18
+
+2012-04-17 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* MuonMomentumCorrections-00-05-03 several bugfixes, revised
+	Combine method, added enum variables for systematic studies
+
+2012-04-10 W. H. Bell <W.Bell@cern.ch>
+	* TopD3PDCorrections-00-00-34 final b-tagging scale factors for mc11b and data
+
+2012-04-06 W. H. Bell <W.Bell@cern.ch>
+	* TopJetUtils-00-00-02 adding namespace and correcting inline use.
+	* TopDataPreparation-00-00-04 updated cross-section values
+
+2012-04-05 W. H. Bell <W.Bell@cern.ch>
+	* TopJetUtils-00-00-01 for JVF scale factors
+
+2012-04-03 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* Updating to ApplyJetCalibration-00-01-01 (JES bugfix)
+
+2012-03-30 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* Updating to TopD3PDAnalysis-00-00-60 (TopNtupleSvc::setNewFileHook).
+
+2012-03-27 V. Dao <Valerio.Dao@cern.ch>	
+	* Updating to TopD3PDCorrections-00-00-33 
+	* Updating to ApplyJetCalibration-00-00-10 (AF2 calibration constants)
+
+2012-03-23 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* Updating to TopD3PDCorrections-00-00-32 (minor changes).
+	* Tagging as TopRootCoreRelease-00-00-17.
+
+2012-03-22 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* Updating to TopD3PDSelection-00-02-36,
+	  TopD3PDCorrections-00-00-31, and TopMiniNtuple-00-01-20. New
+	  naming conventions for corrected 4-momenta in TopD3PDSelection
+	  (Electron, Photon, Muon, Jet).
+
+2012-03-15 W. H. Bell <W.Bell@cern.ch>
+	* WjetsCorrections-00-00-04 to include the latest macros from the Twiki.
+
+2012-03-15 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* TopDileptonSFUtils-00-00-09 bugfix for electron SF, and for muon
+	  SF uncertainties.
+
+2012-03-12 V. Dao <Valerio.Dao@cern.ch>	
+	* JetResolution-01-00-00 updating tag for R17 analyses
+	* TopMiniNtuple-00-01-19 bugfix for running muon loose selection + reorganization of systematics in D3PD2MiniSL
+
+2012-02-11 W. H. Bell <W.Bell@cern.ch>
+	* TopD3PDSelection-00-02-35 update Photon and PhotonSelection to use FudgeMCTool and PhotonIDTool
+	* TopMiniNtuple-00-01-18 update Photon defintion and loose ntuples only for data in D3PDMiniSLG.
+	* TopD3PDAnalysis-00-00-59 Photon constructor update, isMC outside event loop but after TopNtupleSvc initialise
+
+2012-03-09 V. Dao <Valerio.Dao@cern.ch>
+	* Updating TopD3PDCorrections tag
+
+2012-03-09 Ian J. Watson <ian.watson@cern.ch>
+	* Update to WjetsCorrections-00-00-04 for the new scale factors
+	* Update to TopD3PDCorrections-00-00-30 for the new Wjets corrections
+
+2012-03-09 Ian J. Watson <ian.watson@cern.ch>
+	* Update to FakesMacros-00-00-24 for the new Muon matrix method B
+	* Update to CalibrationDataInterface-00-01-02 for the new b tagging scales
+
+2012-03-08 W. H. Bell <W.Bell@cern.ch>
+	* Protecting against RootCore already being setup when the build-all.sh script is run.
+
+2012-03-08 W. H. Bell <W.Bell@cern.ch>
+	* RootCore-00-01-11 to fix a linking problem on OSX 10.7.X
+	* TopMetTool-00-00-12-01 to fix a linking problem on OSX 10.7.X, very slow compilation when the optimiser used.
+	* Tagging as TopRootCoreRelease-00-00-16
+
+2012-02-23 W. H. Bell <W.Bell@cern.ch>
+	* TopDataPreparation-00-00-03 to fix the input file path in SampleXsectionSvc.
+	* RootCore-00-01-10 to fix problem with CERN_USER.
+
+2012-02-23 W. H. Bell <W.Bell@cern.ch>
+	* TopMuonSFUtils-00-00-15 adding protection to MuonSF destructor and initialising private member variables in constructor
+	* TopD3PDCorrections-00-00-27 to add missing include statement
+	* Adding FudgeMCTool-00-00-12 for photon analyses
+	* Adding PhotonIDTool-00-01-01 for photon analyses
+	* Tagging as TopRootCoreRelease-00-00-15
+
+2012-02-22 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* Using TopD3PDAnalysis-00-00-57 and TopD3PDSelection-00-02-34
+	
+2012-02-21 W. H. Bell <W.Bell@cern.ch>
+	* FakesMacros-00-00-21 adding missing precompiler protection to LLMatrixMethodB.h
+
+2012-02-16 W. H. Bell <W.Bell@cern.ch>
+	* FakesMacros-00-00-20 fix from Frederic
+
+2012-02-16 V. Dao <Valerio.Dao@cern.ch>
+	* Collectiong the latest tags of TopD3PDSelection and TopD3PDAnalysis
+	
+2012-02-15 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* Updating to ApplyJetCalibrations-00-00-09 and
+	MissingETUtility-00-02-14
+	* Updating several packages which were updated (mostly minor
+	changes): TopD3PDAnalysis-00-00-56, TopD3PDSelection-00-02-31,
+	TopD3PDCorrections-00-00-26, TopMiniNtuple-00-01-15
+	
+2012-02-15 W. H. Bell <W.Bell@cern.ch>
+	* FakesMacros-00-00-19 to include Olaf's mu+jets method update.
+
+2012-02-13 W. H. Bell <W.Bell@cern.ch>
+	* FakesMacros-00-00-18 to pick up two new electron loose definitions
+	* GoodRunsLists-00-00-98 to pick up workaround for ROOT 5.32
+
+2012-02-10 W. H. Bell <W.Bell@cern.ch>
+	* RootCore-00-01-04 latest RootCore tag.
+
+2012-02-02 W. H. Bell <W.Bell@cern.ch>
+	* TopD3PDAnalysis-00-00-53 to include the mcType command line option
+
+2012-01-31 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* Tagging as TopRootCoreRelease-00-00-14
+
+2012-01-31 W. H. Bell <W.Bell@cern.ch>
+	* FakesMacros-00-00-15 for new fakes prescriptions.
+
+2012-01-31 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* TopD3PDSelection-00-02-28 includes the jet-photon overlap
+	removal (tag -26), the "debug" option for WhichPeriodSvc, as well
+	as a fix to SemiLeptonic (tag -27) and introduces optional second
+	arguments to provide random number seeds for the getPeriod_MC*
+	functions (tag -28).
+	* TopD3PDCorrections-00-00-23 includes two changes from Valerio
+	(eta/phi confusion bug removed, compatibility changes for
+	ApplyJetCalibration-00-00-08).
+
+2012-01-30 W. H. Bell <W.Bell@cern.ch>
+	* ApplyJetCalibration-00-00-08 needed to correct the configuration file directory structure.
+
+2012-01-27 W. H. Bell <W.Bell@cern.ch>
+	* Updating to JetUncertainties-00-03-05-01 following recommendation from Caterina Doglioni
+	* Updating to TopElectronSFUtils-00-00-11 following recommendation from Hongbo
+	* Updating to egammaAnalysisUtils-00-02-70 following new recommendation on the TopCommonScales Twiki
+	* TopMiniNtuple-00-01-14 sorting the jet in pt before writing them down to MiniSL
+	* TopD3PDAnalysis-00-00-52 mc11b/c check, new jet variables for calibration tool and dropping computation of tight elec..
+	* TopD3PDSelection-00-02-25 electron-muon overlap definition corrected.
+	* TopD3PDCorrections-00-00-22 several updates following changes to top group prescriptions
+
+2012-01-25 W. H. Bell <W.Bell@cern.ch>
+	* Updating to TopMiniNtuple-00-01-13 to correct the type of mu and include MiniSLG
+	* Updating to TopD3PDSelection-00-02-24 to correct the type of mu.
+
+2012-01-21 W. H. Bell <W.Bell@cern.ch>
+	* Removing three trunk packages which were included in the previous tag by mistake.
+	* TopD3PDSelection-00-02-23 to correct the MET and MTW cuts for the electron channel.
+	* TopD3PDAnalysis-00-00-51 to correct AppBase to fill Electron::isEMLoose/Medium/Tight.
+	* Tagging as TopRootCoreRelease-00-00-13
+
+2012-01-20 W. H. Bell <W.Bell@cern.ch>
+	* Tagging the current version of the trunk as TopRootCoreRelease-00-00-12
+
+2012-01-19 W. H. Bell <W.Bell@cern.ch>
+	* Changing to TopMuonSFUtils-00-00-13 to pick up histogram deletion fix.
+	* Changing to TopD3PDCorrections-00-00-21 to pick up the MV1 tagger.
+	* Changing to TopD3PDAnalysis-00-00-49 to allow the TTreeCache to be disabled as an option.
+	* Changing to TopD3PDAnalysis-00-00-50 to turn off the automatic TFile write. 
+	* Changing to TopMuonSFUtils-00-00-14 to correct a compile time dependency.
+
+2012-01-18 W. H. Bell <W.Bell@cern.ch>
+	* Adding fix from Dag, ApplyJetCalibration-00-00-04 (affected ROOT Power function).
+	* Swapping to tightpp MET, TopD3PDAnalysis-00-00-47 from Valerio
+	* Swapping to TopD3PDAnalysis-00-00-48 to set WhichPeriod default to mc11b
+	* Tagging as TopRootCoreRelease-00-00-11
+
+2012-01-17 W. H. Bell <W.Bell@cern.ch>
+	* Changing TopD3PDSelection-00-02-22 to correct the electron trigger logic
+	* Adding TopDataPreparation-00-00-02, for period information and MC luminosity inputs.
+	* Changing to TopMiniNtuple-00-01-11 to pick up runtime fixes, correcting the order of AppBase calls.
+	* Changing to TopD3PDCorrections-00-00-20 to pick up the other systematic uncertainties and correct electron scale
+	* Changing to TopD3PDAnalysis-00-00-46 to pick up the TopTree and TopData generated from the latest D3PDs.
+	* Tagging as TopRootCoreRelease-00-00-10
+
+2012-01-17 K. Rosbach <Kilian.Rosbach@cern.ch>
+	* Updating TopElectronSFUtils to tag 00-00-10, provided by Hongbo Zhu.
+
+2012-01-17 W. H. Bell <W.Bell@cern.ch>
+	* Updating the TopDileptonSFUtils tag for Kevin Finelli
+	* Adding a fix to the electron selection (TopD3PDSelection-00-02-21), provided by Kilian Rosbach.
+
+2012-01-16 W. H. Bell <W.Bell@cern.ch>
+	* TopMiniNtuple fixed for introduction of WhichPeriodSvc
+	* TopD3PDCorrections fixed for compilation under OSX
+	* Not all systematic uncertainties are implemented correctly.  A futher update will be needed later this week.
+	* Tagging as TopRootCoreRelease-00-00-09
+
+2012-01-13 W. H. Bell <W.Bell@cern.ch>
+	* Switching to JetResolution-00-00-09, which is recommended by twiki.cern.ch/twiki/bin/view/Main/JetEnergyResolutionProvider
+	* Switching to TopElectronSFUtils-00-00-09, which was produced today by Hongbo.
+
+2012-01-12 W. H. Bell <W.Bell@cern.ch>
+	* Rolling the egammaEvent tag back to egammaEvent-03-06-19 as recommended by Hongbo, the tag comes from AMI tag p834.
+	* Following a recommendation from e/gamma and upheld by Hongbo, egammaAnalysisUtils-00-02-59 has been put back in.
+	* Updating the muon tags to match TopCommonScales page, MuonMomentumCorrections-00-05-00 and MuonEfficiencyCorrections-01-01-00
+	* Adding fixed TopDileptonSFUtils-00-00-05 needed following TopMuonSFUtils-00-00-11 tag.
+	* Updating to TopElectronSFUtils-00-00-08, but expect another tag from Hongbo tomorrow.
+	* Adding new jet tags from twiki.cern.ch/twiki/bin/view/AtlasProtected/JetCalibrationToolsWinter2011
+	* Adding new jet efficiency tag recommendation JetEffiProvider-00-00-03
+
+2012-01-11 W. H. Bell <W.Bell@cern.ch>
+	* Updated WhichPeriod MC files for mc11b
+	* Updated to egammaAnalysisUtils-00-02-57, following Hongbo's recommendation.
+	* Using the latest egammaEvent tag, rather than the trunk
+	* Updated muon identification and trigger scale factors for release 17 dataset / mc11a simulation
+
+2012-01-09 W. H. Bell <W.Bell@cern.ch>
+	* Swapping direct use of WhichPeriod for WhichPeriodSvc.
+	* Adding protection when using trigger flags, to stop seg faults.
+
+2012-01-06 W. H. Bell <W.Bell@cern.ch>
+	* Adding JetTagAlgorithms-00-00-01.
+	* Updating to TopD3PDSelection-00-02-16 to remove compilation warnings and add WhichPeriodSvc
+
+2011-12-31 S. J. Head <simon@cern.ch>
+	* Replace RootCore trunk with RootCore-00-00-33 (nightly builds were failing)
+
+2011-12-12 I. J. Watson <ian.watson@cern.ch>
+	* Update TopD3PD* packages to working tags (note this changes the jet and met cuts around)
+	* Tagging as TopRootCoreRelease-00-00-08
+
+2011-12-08 I. J. Watson <ian.watson@cern.ch>
+	* Update TopD3PD* packages to working tags
+	* Tagging as TopRootCoreRelease-00-00-07
+
+2011-11-28 I. J. Watson <ian.watson@cern.ch>
+	* Updating to egammaAnalysisUtils-00-02-55
+
+2011-01-03 W. H. Bell <W.Bell@cern.ch>
+	* Updating to FakesMacros-00-00-14
+
+2011-11-28 I. J. Watson <ian.watson@cern.ch>
+	* Release 17 prescriptions update
+	* Updating to MuonEfficiencyCorrections-01-00-10
+	* Updating to MuonMomentumCorrections-00-04-01
+	* Add egammaEvent for the egamma PID
+	* Updating TopD3PD* to the latest versions
+	* Tagging as TopRootCoreRelease-00-00-05
+	* Correct egammaEvent and tag as TopRootCoreRelease-00-00-06
+
+2011-11-21 I. J. Watson <ian.watson@cern.ch>
+	* Updating tags to rel 16 before we branch rel 16 off and put 17 on trunk
+	* Final tag/branch for release 16, for further work on rel 16 please use:
+	TopRootCoreRelease-00-00-02-branch
+	* Fix missings tags/ in some paths and update to correct TopD3PDSelection version
+
+2011-11-11 W. H. Bell <W.Bell@cern.ch>
+	* Using tags JetResolution-00-00-06 and TopDileptonSFUtils-00-00-04
+
+2011-11-08 W. H. Bell <W.Bell@cern.ch>
+	* Updating tags for TopMiniNtuple-00-01-01, TopD3PDAnalysis-00-00-31, and TopD3PDSelection-00-02-02
+
+2011-10-31 W. H. Bell <W.Bell@cern.ch>
+	* Updating the RootCore tag to fix bug when running on the GRID.
+
+2011-10-27 W. H. Bell <W.Bell@cern.ch>
+	* Updating the RootCore tag to fix bug when running on the GRID.
+
+2011-10-26 W. H. Bell <W.Bell@cern.ch>
+	* Updating GoodRunsLists tag to GoodRunsLists-00-00-96 following bug report.
+
+2011-09-26 Mark Owen <markowen@cern.ch>
+	* Update TopMuonSFUtils version to TopMuonSFUtils-00-00-09
+
+2011-08-15 W. H. Bell <W.Bell@cern.ch>
+	* Tagging package for use with MET analysis code.
+	* Tagging as TopRootCoreRelease-00-00-01
+
+2011-08-05 W. H. Bell <W.Bell@cern.ch>
+	* Adding package.

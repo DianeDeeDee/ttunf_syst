@@ -1,0 +1,86 @@
+10
+
+dir
+144011
+svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir/dferreir/ttunf/trunk/packages/egammaAnalysisUtils
+svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir
+
+
+
+2014-12-09T12:29:38.071569Z
+143953
+dferreir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4525493e-7705-40b1-a816-d608a930855b
+
+share
+dir
+
+Root
+dir
+
+cmt
+dir
+
+macros
+dir
+
+doc
+dir
+
+src
+dir
+
+ChangeLog
+file
+
+
+
+
+2016-02-10T12:28:03.000000Z
+088ac09016d0a36929ef7cfb45960bd9
+2014-12-09T12:29:38.071569Z
+143953
+dferreir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47097
+
+egammaAnalysisUtils
+dir
+
+util
+dir
+

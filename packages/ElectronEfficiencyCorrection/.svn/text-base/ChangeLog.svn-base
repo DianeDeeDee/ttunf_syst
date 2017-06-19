@@ -1,0 +1,109 @@
+2013-10-22	Kristin Lohwasser <kristin@cern.ch>
+
+	* tagging ElectronEfficiencyCorrection-00-00-34
+	* data: added v04 2012 trigger SF files. These include the AtlFast2 scale factors for the e24vhi trigger
+
+2013-10-18	Felix Bührer <felix.buehrer@cern.ch>
+
+	* tagging ElectronEfficiencyCorrection-00-00-33
+	* data: added v04 2012 SF files. These include the AtlFast2 scale factors
+	for both reco & ID
+
+2013-10-14 Felix Bührer <felix.buehrer@cern.ch>
+
+	* tagging ElectronEfficiencyCorrection-00-00-32
+	* data: Added the missing uncorr and eig-histgorams for 2011 di-electron
+	trigger files
+
+2013-09-17	Kristin Lohwasser	<kristin.lohwasser@cern.ch>
+
+	* tagging ElectronEfficiencyCorrection-00-00-25
+	* data: added Set2013-v3
+
+2013-09-09	Felix Buehrer	<felix.buehrer@cern.ch>
+
+	* tagging ElectronEfficiencyCorrection-00-00-24
+	* Root/TElectronEfficiencyCorrectionTool.cxx: Bugfix for split low/high-pt
+	histograms (now independet of ordering) - reported by Yusheng Wu
+	* README: deleted old information in readme, now only pointing to twiki-page
+
+2013-09-08  RD Schaffer  <R.D.Schaffer@cern.ch>
+
+	* tagging ElectronEfficiencyCorrection-00-00-23
+	* cmt/requirements: move to use dual_use libs
+
+2013-09-28 Felix Buehrer	<felix.beuhrer@cern.ch>
+
+	* Tagged as v 00-00-21
+
+2013-08-23 Felix Buehrer	<felix.buehrer@cern.ch>
+
+	*	cmt/requirements: Change in cmt requirements file (asked by F. Tarrade) 
+	* Root/TElectronEfficiencyCorrectionTool.cxx: Small bugfix for ToyMC (preventing segfaults for one new trigger file w/ both FS and AF2 toy inputs)
+
+2013-07-26 Felix Buehrer	<felix.buehrer@cern.ch>
+
+	* Root/TElectronEfficiencyCorrectionTool.cxx: Fixes for the final 2011 scale
+	factors, problem with wrong systematics being returned now fixed, some
+	cosmetic changes
+	* ElectronEfficiencyCorrection/TElectronEfficiencyCorrectionTool.h: Added a
+	PrintResultMap() function that prints an overview of the elements in the
+	return object to stdout
+	* tag as ElectronEfficiencyCorrection-00-00-20
+
+2013-06-11 Felix Buehrer	<felix.buehrer@cern.ch>
+
+	* Root/TElectronEfficiencyCorrectionTool.cxx: Added the global bin number
+	to the result object (user request)
+	* ElectronEfficiencyCorrection/TElectronEfficiencyCorrectionTool.h: Added a
+	helper function to retrieve the position of the global bin number in the
+	result object
+	* tag as ElectronEfficiencyCorrection-00-00-19
+
+
+2013-06-06 Felix Buehrer	<felix.buehrer@cern.ch>
+
+	* Root/TElectronEfficiencyCorrectionTool:	Fix to prevent code crash when
+	using the auto-setting of the seed and having an environment variable in the
+	file name
+	* tag as ElectronEfficiencyCorrection-00-00-18
+
+
+2013-05-21 Felix Buehrer	<felix.buehrer@cern.ch>
+
+	*	Root/TElectronEfficiencyCorrectionTool: Fixed some defects tagged by
+	coverity, fix in writing the uncorrelated uncertainties
+	* data/efficiencySF*.2011.*.v02.root: updated the 2011 v02 sf data files (total uncertainties only)
+	* tag as ElectronEfficiencyCorrection-00-00-17
+
+
+2013-05-02 Felix Buehrer	<felix.buehrer@cern.ch>
+	
+	* Root/TElectronEfficiencyCorrectionTool.cxx: Fixed a memory leak reported
+	via http://savannah.cern.ch/bugs/?101373
+	*	tag as ElectronEfficiencyCorrection-00-00-15
+
+
+2013-04-22  Karsten Koeneke  <karsten.koeneke@cern.ch>
+
+	* cmt/requirements: Move IUserDataCalcTool interface to PATCore
+	* tag as ElectronEfficiencyCorrection-00-00-14
+
+2013-04-22	Felix Buehrer <felix.buehrer@cern.ch>
+
+	* Root/TElectronEfficiencyCorrectionTool.cxx: calculate seed from first
+	filename if not explicitly set, more output in normal (non-verbose) mode
+	* cmt/Makefile.RootCore: Added the pedantic flag
+	. Sorry for not maintaining the ChangeLog!
+
+
+2013-01-17  Karsten Koeneke  <karsten.koeneke@cern.ch>
+
+	* Root/TElectronEfficiencyCorrectionTool.cxx (calculate): downgrade message to debug
+	* tag as ElectronEfficiencyCorrection-00-00-04
+
+2013-01-16  Karsten Koeneke  <karsten.koeneke@cern.ch>
+
+	* cmt/requirements: Adding
+	* tag as ElectronEfficiencyCorrection-00-00-03
+

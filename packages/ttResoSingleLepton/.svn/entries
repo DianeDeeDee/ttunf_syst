@@ -1,0 +1,83 @@
+10
+
+dir
+144011
+svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir/dferreir/ttunf/trunk/packages/ttResoSingleLepton
+svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir
+
+
+
+2014-12-09T16:50:57.528771Z
+143955
+dferreir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4525493e-7705-40b1-a816-d608a930855b
+
+limits
+dir
+
+python
+dir
+
+share
+dir
+
+Root
+dir
+
+cmt
+dir
+
+ttResoSingleLepton
+dir
+
+ChangeLog
+file
+
+
+
+
+2016-02-10T12:27:44.000000Z
+9b0d84bced19ea53dcbff8b6ce097f3f
+2014-12-09T16:50:57.528771Z
+143955
+dferreir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12193
+
+data
+dir
+

@@ -1,0 +1,94 @@
+2012-12-20 H. Zhu <hongbo.zhu@cern.ch>
+	* Added scale factors for mini-isolation electron_MI_SF_R17.h
+	* Tag as TopElectronSFUtils-00-00-29
+
+2012-12-20 H. Zhu <hongbo.zhu@cern.ch>
+	* Updated scale factors using 13/fb data (p1269)
+	* Added trigger scale factors for D3+ and internal conversion of run number to set
+	* Tag as TopElectronSFUtils-00-00-28
+
+2012-11-05 H. Zhu <hongbo.zhu@cern.ch>
+	* Updated scale factors using 8.4/fb data
+	* Tag as TopElectronSFUtils-00-00-25
+
+2012-09-21 H. Zhu <hongbo.zhu@cern.ch>
+	* Extended ID+isolation scale factors down to 15 GeV (requested by ttZ)
+	* Tag as TopElectronSFUtils-00-00-24
+	
+2012-08-02 H. Zhu <hongbo.zhu@cern.ch>
+	* Updated scale factors for Top2012
+	* Tag as TopElectronSFUtils-00-00-19
+	
+2012-04-24 H. Zhu <hongbo.zhu@cern.ch>
+	* Updated scale factors for ICHEP
+	* TopElectronSFTool by C. Lange 
+	* Tag as TopElectronSFUtils-00-00-16
+
+2012-04-16 H. Zhu <hongbo.zhu@cern.ch>
+	* Updated scale factors for R17 isolations 
+	* Preliminary numbers and binning
+	* Tag as TopElectronSFUtils-00-00-15
+	
+2012-04-05 H. Zhu <hongbo.zhu@cern.ch>
+	* Added missing links
+	* Postpone the performance updates to the next iteration ...
+	* Tag as TopElectronSFUtils-00-00-14
+	
+2012-03-27 Andreas Wildauer
+	* Structural/Robustness updates to electron_SF_R17.h
+	  - add range check on Et and retur 1. if out of range
+	  - do range check of eta and Et at the beginning of each method (faster)
+	  - I did NOT TOUCH the AFII methods
+	* more performance updates could/should be done (i.e. allocating arrays of 8*18 per method call is not ideal ...)
+	* No new tag
+
+2012-02-20 H. Zhu <hongbo.zhu@cern.ch>
+	* Updating trigger scale factors
+	* Tagging as TopElectronSFUtils-00-00-13
+	
+2012-02-10 H. Zhu <hongbo.zhu@cern.ch>
+	* Adding trigger scale factors for AFII
+	* Tagging as TopElectronSFUtils-00-00-12
+
+2012-01-27 H. Zhu <hongbo.zhu@cern.ch>
+	* Correcting ET binning for trigger scale factors
+	* Defining all functions as inline
+	* Updating ID and isolation scale factors for Moriond
+	* Adding AFII scale factors
+	* Tagging as TopElectronSFUtils-00-00-11
+
+	
+2012-01-13 H. Zhu <hongbo.zhu@cern.ch>
+	* Adding the first version of scale factors for R17 electron_SF_R17.h
+	* Tagging as TopElectronSFUtils-00-00-09
+	
+2011-10-18 H. Zhu <hongbo.zhu@cern.ch>
+	* Adding ID scale facotrs for [20,25] upon the request by the FCNC analysis
+	* Tagging as TopElectronSFUtils-00-00-08
+2011-10-04 W. H. Bell <W.Bell@cern.ch>
+	* Adding the LinkDef.h file back in for python access.
+	* Tagging as TopElectronSFUtils-00-00-07
+
+2011-08-26 W. H. Bell <W.Bell@cern.ch>
+	* Adding dummy.cxx to give RootCore something to chew on.
+	* Tagging as TopElectronSFUtils-00-00-06
+
+2011-08-25 G. Salamanna <giuseppe.salamanna@cern.ch>
+	* Removing obsolete Root/dilepton_SF_R16
+	* Tagging as TopElectronSFUtils-00-00-05
+	
+2011-08-20 W. H. Bell <W.Bell@cern.ch>
+	* Fixing other compile errors.
+	* Tagging as TopElectronSFUtils-00-00-04
+
+2011-08-09 W. H. Bell <W.Bell@cern.ch>
+	* Tagging the package to work with RootCore-00-00-04
+	* Tagging as TopElectronSFUtils-00-00-03
+
+2011-08-01 W. H. Bell <W.Bell@cern.ch>
+	* Moving the package to build with RootCore.
+	* Tagging as TopElectronSFUtils-00-00-02
+
+2011-07-31 W. H. Bell <W.Bell@cern.ch>
+	* Tagging the package before conversion to RootCore build structure
+	* Tagging as TopElectronSFUtils-00-00-01

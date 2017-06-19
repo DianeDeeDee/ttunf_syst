@@ -1,0 +1,68 @@
+Z400:           8      -1
+Z500:           5       -1
+Z750:           1.5       -1
+Z1000:		1.2	-1		
+Z1250:		.6	-1
+Z1500:		.4	-1
+Z1750:		.2	-1
+Z2000:		.2	-1
+Z2250:		.2	-1
+Z2500:		.15	-1
+Z3000:		.1	-1
+
+KKg400:         10      -1
+KKg500:         10      -1
+KKg600:         5      -1
+KKg700:         5      -1
+KKg800:         3      -1
+KKg900:         2      -1
+KKg1000:        1.5      -1
+KKg1150:        1.0      -1
+KKg1300:        .8      -1
+KKg1600:        .5	-1
+KKg1800:	.4	-1
+KKg2000:	.4	-1
+KKg2250:	.3	-1
+KKg2500:	.3	-1
+KKg2750:	.3	-1
+KKg3000:	.3	-1
+
+
+KKg1000_width10pc: 1.5  -1
+KKg1000_width15pc: 1.5  -1
+KKg1000_width20pc: 1.5  -1
+KKg1000_width25pc: 1.5  -1
+KKg1000_width30pc: 1.5  -1
+KKg1000_width35pc: 1.5  -1
+KKg1000_width40pc: 1.5  -1
+
+KKg2000_width10pc: .3   -1
+KKg2000_width15pc: .3   -1
+KKg2000_width20pc: .3   -1
+KKg2000_width25pc: .5   -1
+KKg2000_width30pc: .5   -1
+KKg2000_width35pc: .5   -1
+KKg2000_width40pc: .5   -1
+
+
+KKg3000_width10pc:  .5       -1
+KKg3000_width15pc:  .5       -1
+KKg3000_width20pc:  .5       -1
+KKg3000_width25pc:  .5       -1
+KKg3000_width30pc:  .5       -1
+KKg3000_width35pc:  .5       -1
+KKg3000_width40pc:  .5       -1
+
+RSG400:         7      -1
+RSG500:         5      -1
+RSG600:         5      -1
+RSG700:         2      -1
+RSG800:		1.2	-1
+RSG900:		1     -1
+RSG1000:        .7     -1
+RSG1200:        .5     -1
+RSG1400:        .3      -1
+RSG1600:        .3     -1
+RSG1800:	.2	-1
+RSG2000:	.2	-1
+RSG2500:	.1	-1

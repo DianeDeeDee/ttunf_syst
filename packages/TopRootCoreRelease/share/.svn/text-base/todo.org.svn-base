@@ -1,0 +1,41 @@
+* TODO General Updates
+
+** Run Number
+
+Set a run number for an event after it is read in (using the pileup
+reweighting tools function) so that the helper packages get a
+consistent picture of the event. (i.e. so we don't derive one run
+number for the muon corrections, one for the pileup etc. as currently
+happens.).
+
+The way this works exactly I don't know, particularly since the new
+egamma SFs apparently require the data to be chopped into 3 periods,
+not sure how this interplays with the run number from the D3PD, the
+run number that can be retrieved from the pileup tool, and the period
+additions in the pileup tool itself...
+
+** JVF
+
+New jvf cut of .5 needs to be updated
+
+** LC Jets
+
+Need to replace Antikt4 jets with LC jets everywhere.
+
+* TODO Package Updates
+
+** TopJetUtils-00-00-08
+
+Interface changes?
+
+** TopMuonSFUtils-00-00-16 & TrigMuonEfficiency-00-02-08
+
+interface changes?
+
+** egammaAnalysisUtils-00-03-33
+
+changes? (i think it was just a bug fix)
+
+** TopElectronSFUtils-00-00-20
+
+Interface changes? Splits the data into 3?

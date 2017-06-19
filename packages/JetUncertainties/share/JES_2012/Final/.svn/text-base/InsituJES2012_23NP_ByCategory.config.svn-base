@@ -1,0 +1,146 @@
+##############################################################################
+#
+#  JESProvider Input Settings
+#    Reduced set of nuisance parameters from final 2012 iteration of the in-situ JES
+#    Reduction was applied within each category
+#    Sept 24, 2014
+#
+#  S. Schramm
+#
+##############################################################################
+
+JESUncertaintyRootFile:             packages/JetUncertainties/share/JES_2012/Final/JESUncertainty_2012.root
+
+##############################################################################
+# 
+#   Settings for JES Components
+#
+##############################################################################
+
+JESComponent.1.Desc:                Effective JES Statistical and Method Component 1
+JESComponent.1.Name:                EffectiveNP_Statistical1
+JESComponent.1.Type:                Statistical
+
+JESComponent.2.Desc:                Effective JES Statistical and Method Component 2
+JESComponent.2.Name:                EffectiveNP_Statistical2
+JESComponent.2.Type:                Statistical
+
+JESComponent.3.Desc:                Effective JES Statistical and Method Component 3
+JESComponent.3.Name:                EffectiveNP_Statistical3
+JESComponent.3.Type:                Statistical
+
+JESComponent.4.Desc:                Effective JES Statistical and Method Component 4
+JESComponent.4.Name:                EffectiveNP_Statistical4
+JESComponent.4.Type:                Statistical
+
+JESComponent.5.Desc:                Effective JES Modelling Component 1
+JESComponent.5.Name:                EffectiveNP_Modelling1
+JESComponent.5.Type:                Modelling
+
+JESComponent.6.Desc:                Effective JES Modelling Component 2
+JESComponent.6.Name:                EffectiveNP_Modelling2
+JESComponent.6.Type:                Modelling
+
+JESComponent.7.Desc:                Effective JES Modelling Component 3
+JESComponent.7.Name:                EffectiveNP_Modelling3
+JESComponent.7.Type:                Modelling
+
+JESComponent.8.Desc:                Effective JES Modelling Component 4
+JESComponent.8.Name:                EffectiveNP_Modelling4
+JESComponent.8.Type:                Modelling
+
+JESComponent.9.Desc:                Effective JES Detector Component 1
+JESComponent.9.Name:                EffectiveNP_Detector1
+JESComponent.9.Type:                Detector
+
+JESComponent.10.Desc:               Effective JES Detector Component 2
+JESComponent.10.Name:               EffectiveNP_Detector2
+JESComponent.10.Type:               Detector
+
+JESComponent.11.Desc:               Effective JES Detector Component 3
+JESComponent.11.Name:               EffectiveNP_Detector3
+JESComponent.11.Type:               Detector
+
+JESComponent.12.Desc:               Effective JES Mixed Modelling and Detector Component 1
+JESComponent.12.Name:               EffectiveNP_Mixed1
+JESComponent.12.Type:               Mixed
+
+JESComponent.13.Desc:               Effective JES Mixed Modelling and Detector Component 2
+JESComponent.13.Name:               EffectiveNP_Mixed2
+JESComponent.13.Type:               Mixed
+
+JESComponent.14.Desc:               Effective JES Mixed Modelling and Detector Component 3
+JESComponent.14.Name:               EffectiveNP_Mixed3
+JESComponent.14.Type:               Mixed
+
+JESComponent.15.Desc:               Effective JES Mixed Modelling and Detector Component 4
+JESComponent.15.Name:               EffectiveNP_Mixed4
+JESComponent.15.Type:               Mixed
+
+
+##############################################################################
+# 
+#   Special components
+#
+##############################################################################
+
+# Eta intercalibration: theory uncertainty
+JESComponent.16.Desc:               Eta intercalibration: MC generator modelling uncertainty
+JESComponent.16.Name:               EtaIntercalibration_Modelling
+JESComponent.16.Type:               Modelling
+
+# Eta intercalibration: total statistical and method uncertainty
+JESComponent.17.Desc:               Eta intercalibration: statistical uncertainty
+JESComponent.17.Name:               EtaIntercalibration_TotalStat
+JESComponent.17.Type:               Statistical
+
+# Pileup: Mu term
+JESComponent.18.Desc:               Pileup: Offset, mu term
+JESComponent.18.Name:               Pileup_OffsetMu
+JESComponent.18.Type:               Special
+
+# Pileup: NPV term
+JESComponent.19.Desc:               Pileup: Offset, NPV term
+JESComponent.19.Name:               Pileup_OffsetNPV
+JESComponent.19.Type:               Special
+
+# Pileup: pT term (mu part)
+JESComponent.20.Desc:               Pileup: Offset, pT term, mu component
+JESComponent.20.Name:               Pileup_PtTerm_Mu
+JESComponent.20.Type:               Special
+
+# Pileup: pT term (NPV part)
+JESComponent.21.Desc:               Pileup: Offset, pT term, NPV component
+JESComponent.21.Name:               Pileup_PtTerm_NPV
+JESComponent.21.Type:               Special
+
+# Pileup: rho topology
+JESComponent.22.Desc:               Pileup: Rho topology uncertainty
+JESComponent.22.Name:               Pileup_RhoTopology
+JESComponent.22.Type:               Special
+
+# Calibration closure
+JESComponent.23.Desc:               High pT term (2012 version)
+JESComponent.23.Name:               SingleParticle_HighPt
+JESComponent.23.Type:               Special
+
+# Calibration closure
+JESComponent.24.Desc:               Closure of the calibration, relative to MC12a
+JESComponent.24.Name:               RelativeNonClosure_MCTYPE
+JESComponent.24.Type:               Special
+# NOTE: MCTYPE in the name above will be replaced by the MC type used when initializing the provider
+
+
+##############################################################################
+#
+#   Settings for Pile-up uncertainty and calibration version
+#
+##############################################################################
+
+Pileup.MuRef:   20.7
+Pileup.NPVRef:  12.5
+VersionTag:     Final2012
+Correlation:    Nominal
+
+##############################################################################
+

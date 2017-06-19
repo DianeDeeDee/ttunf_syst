@@ -1,0 +1,15 @@
+2012-05-09 W. H. Bell <W.Bell@cern.ch>
+	* Using TRandom3 rather than rand.  Adding function to set the seed.
+	* Tagging as JetEffiProvider-00-00-04
+
+2011-11-28 N.Ghodbane
+	* added Standalone Makefile <- not everybody is interested in ROOTCore
+	* Tagging as JetEffiProvider-00-00-03
+
+2011-08-08 N.Ghodbane
+	* remove GeV
+	* Tagging as JetEffiProvider-00-00-02
+
+2011-08-01 W. H. Bell <W.Bell@cern.ch>
+	* Creating package, with RootCore build
+	* Tagging as JetEffiProvider-00-00-01

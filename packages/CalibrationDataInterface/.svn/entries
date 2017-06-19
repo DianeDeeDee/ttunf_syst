@@ -1,0 +1,89 @@
+10
+
+dir
+144011
+svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir/dferreir/ttunf/trunk/packages/CalibrationDataInterface
+svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir
+
+
+
+2014-02-18T19:05:14.344576Z
+143722
+dferreir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4525493e-7705-40b1-a816-d608a930855b
+
+CalibrationDataInterface
+dir
+
+share
+dir
+
+Root
+dir
+
+cmt
+dir
+
+macros
+dir
+
+doc
+dir
+
+scripts
+dir
+
+src
+dir
+
+ChangeLog
+file
+
+
+
+
+2016-02-10T12:27:30.000000Z
+96b52a04dabd31c388b042cefd08f53b
+2014-02-18T19:05:14.344576Z
+143722
+dferreir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4637
+
+tags
+dir
+

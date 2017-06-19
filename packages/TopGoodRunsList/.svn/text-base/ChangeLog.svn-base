@@ -1,0 +1,77 @@
+2013-11-01 Simon <simon@cern.ch>
+	* Add mu profile for delayed stream - Jiahang Zhong
+	* Tagging TopGoodRunsList-00-00-19
+
+2013-07-31 Simon <simon@cern.ch>
+	* Tagging TopGoodRunsList-00-00-18
+
+2013-07-31 Simon <simon@cern.ch>
+	* Reduce size from 150 MB!
+	* Remove everything but the rec GRL and pileup reweighting file
+
+2013-05-22 J. Adelman <jahreda@cern.ch>
+	* Update to DetStatus-v61-pro14-02
+	* TopGoodRunsList-00-00-17
+	
+2013-03-26 J. Adelman <jahreda@cern.ch>
+	* Update ilumicalc for full dataset
+	* TopGoodRunsList-00-00-16
+
+2013-02-27 M. Owen <markowen@cern.ch>
+	* Add GRL for full 2012 dataset (data12_8TeV.periodAllYear_DetStatus-v58-pro14-01_DQDefects-00-00-33_PHYS_StandardGRL_All_Good.xml)
+	* TopGoodRunsList-00-00-15
+
+2013-01-30 M. Owen <markowen@cern.ch>
+	* Add GRL files corresponding to grp12_v01_p1269_p1270 containers
+	* TopGoodRunsList-00-00-14
+	
+2013-01-11 M. Owen <markowen@cern.ch>
+	* Add GRL files corresponding to grp12_v00_p1269_p1270 containers
+	* Add GRL for AND of egamma & muon stream for grp12_v00_p1269_p1270 containers
+	* TopGoodRunsList-00-00-13
+
+2012-11-14 V Dao <valerio.dao@cern.ch>
+	* ... obviously I forgot to add the files ...
+	* TopGoodRunsList-00-00-12
+	
+2012-11-14 V Dao <valerio.dao@cern.ch>
+	* adding new GRL + new ilumical file
+	* removing some older files
+	* TopGoodRunsList-00-00-11
+
+2012-10-11 V. Dao <valerio.dao@cern.ch>
+	* fixing a compilation error
+	* TopGoodRunsList-00-00-10
+
+2012-10-11 M. Owen <markowen@cern.ch>
+	* Get GRL from $ROOTCOREBIN
+	* TopGoodRunsList-00-00-09
+
+2012-09-12 V. Dao <valerio.dao@cern.ch>
+	* Updating 2012 GRL + ilumicalcFile up to PeriodD2
+	* tagging as TopGoodRunsList-00-00-08
+
+2012-07-20 I. J. Watson <ian.watson@cern.ch>
+	* Update 2011 lumicalc files
+	* tagging as TopGoodRunsList-00-00-06
+	* fix files
+	* tagging as TopGoodRunsList-00-00-07
+
+2012-07-18 I. J. Watson <ian.watson@cern.ch>
+	* Add 2012 xml and lumicalc files
+	* tagging as TopGoodRunsList-00-00-05
+
+2012-04-27 I. J. Watson <ian.watson@cern.ch>
+	* Fixing dep.
+	* TopGoodRunsList-00-00-04
+
+2012-04-26 W. H. Bell <W.Bell@cern.ch>
+	* Adding GrlSvc, which used to be in TopD3PDAnalysis
+
+2011-11-21 I. J. Watson <ian.watson@cern.ch>
+	* Final tag/branch for release 16, for further work on rel 16 please use:
+	TopGoodRunsList-00-00-02-branch
+
+2011-11-17 W. H. Bell <W.Bell@cern.ch>
+	* Tagging the version related to mc10
+	* Tagging as TopGoodRunsList-00-00-01
