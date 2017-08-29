@@ -1,37 +1,0 @@
-10
-
-dir
-144011
-svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir/dferreir/ttunf/trunk/packages/ApplyJetCalibration/data
-svn+ssh://dshoaleh@svn.cern.ch/reps/atlas-dferreir
-
-
-
-2015-05-20T08:16:51.910339Z
-143974
-dferreir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4525493e-7705-40b1-a816-d608a930855b
-
-CalibrationConfigs
-dir
-
-InsituCalibration
-dir
-
-CalibrationFactors
-dir
-

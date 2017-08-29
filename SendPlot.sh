@@ -1,0 +1,23 @@
+root -l -b -q 'macros/plotDiane_JPL2.C+("jetPt","./","_mu.root")
+root -l -b -q 'macros/plotDiane_JPL2.C+("jetPt","./","_e.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("largeJetPt","./","_mu.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("largeJetPt","./","_e.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MET","./","_mu.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("seljetPt","./","_mu.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("seljetPt","./","_e.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MET","./","_e.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("lepPt","./","_e.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("lepPt","./","_mu.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassGStar_3SjFarNSeljL","./","_mu.root")'>&3Sj_mu.txt&
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassGStar_3SjFarNSeljL","./","_e.root")'>&3Sj_e.txt&
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassGStar_5SjFarNSeljL","./","_e.root")'>&5Sj_e.txt&
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassGStar_5SjFarNSeljL","./","_mu.root")'>&5Sj_e.txt&
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassGStar_4jets","./","_mu.root")'>&4Sj_mu.txt&
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassGStar_4jets","./","_e.root")'>&4Sj_mu.txt&
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassGStar_1Fatj2SjFarLepLJetNSeljL","./","_e.root")'>&1Lj2Sj_e.txt&
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassGStar_1Fatj2SjFarLepLJetNSeljL","./","_mu.root")'>&1Lj2Sj_mu.txt&
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassT_3SjFar","./","_mu.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassT_3SjFar","./","_e.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassT_5SjFarNSeljL","./","_e.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassT_5SjFarNSeljL","./","_mu.root")'
+ root -l -b -q 'macros/plotDiane_JPL2.C+("MassT_4jets","./","_mu.root")'

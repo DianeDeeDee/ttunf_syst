@@ -1,7 +1,0 @@
-PACKAGE          = TopMuonSFUtils
-PACKAGE_PRELOAD  = HistPainter
-PACKAGE_CXXFLAGS = 
-PACKAGE_LDFLAGS  = 
-PACKAGE_DEP      =
-
-include $(ROOTCOREDIR)/Makefile-common
